@@ -1,0 +1,3363 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_934fa8fd899543c98988c7dcec2d8be7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_934fa8fd899543c98988c7dcec2d8be7" ></div>
+        
+</body>
+<script>    
+    
+            var map_934fa8fd899543c98988c7dcec2d8be7 = L.map(
+                "map_934fa8fd899543c98988c7dcec2d8be7",
+                {
+                    center: [13.8606941, 100.5079739],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 80,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_70807446f8a84aba979eb8a3b5c3b4c7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_934fa8fd899543c98988c7dcec2d8be7);
+        
+    
+            var feature_group_08187087c4dd49d1bf675f05a4dacf83 = L.featureGroup(
+                {}
+            ).addTo(map_934fa8fd899543c98988c7dcec2d8be7);
+        
+    
+            var marker_7f926b0f571749a0a13f56c58e6d49fb = L.marker(
+                [13.9066858, 100.5120418],
+                {}
+            ).addTo(feature_group_08187087c4dd49d1bf675f05a4dacf83);
+        
+    
+            var icon_99c28f0d1eb6484385540750118e86ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7f926b0f571749a0a13f56c58e6d49fb.setIcon(icon_99c28f0d1eb6484385540750118e86ea);
+        
+    
+        var popup_631856a7054f4ff4bda70b8e555f540c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ba50702eda446438e1c6c29cc55d13b = $(`<div id="html_4ba50702eda446438e1c6c29cc55d13b" style="width: 100.0%; height: 100.0%;"><b>name: </b> images29.jpg<br> <b>LAT: </b> 13.9066858<br> <b>LOG: </b> 100.5120418<br><b>Class : </b> mend<br> <b>Time : </b> 07/02/2021 09:43:08 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew29.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew29.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_631856a7054f4ff4bda70b8e555f540c.setContent(html_4ba50702eda446438e1c6c29cc55d13b);
+        
+
+        marker_7f926b0f571749a0a13f56c58e6d49fb.bindPopup(popup_631856a7054f4ff4bda70b8e555f540c)
+        ;
+
+        
+    
+    
+            var marker_1efbd6671ab2436d9a2e0ed5b7d378b8 = L.marker(
+                [13.8636892, 100.5203497],
+                {}
+            ).addTo(feature_group_08187087c4dd49d1bf675f05a4dacf83);
+        
+    
+            var icon_e75df44f82e840e49e8d7a63ca30afe8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1efbd6671ab2436d9a2e0ed5b7d378b8.setIcon(icon_e75df44f82e840e49e8d7a63ca30afe8);
+        
+    
+        var popup_ccbf6abe01114fc6842ce6f01661d631 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20621dca960448f7b2a4f704d76c198d = $(`<div id="html_20621dca960448f7b2a4f704d76c198d" style="width: 100.0%; height: 100.0%;"><b>name: </b> images108.jpg<br> <b>LAT: </b> 13.8636892<br> <b>LOG: </b> 100.5203497<br><b>Class : </b> mend<br> <b>Time : </b> 07/02/2021 09:58:28 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew108.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew108.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_ccbf6abe01114fc6842ce6f01661d631.setContent(html_20621dca960448f7b2a4f704d76c198d);
+        
+
+        marker_1efbd6671ab2436d9a2e0ed5b7d378b8.bindPopup(popup_ccbf6abe01114fc6842ce6f01661d631)
+        ;
+
+        
+    
+    
+            var marker_bd2e90d9800240018c8021ec26ae69db = L.marker(
+                [13.8607131, 100.5214615],
+                {}
+            ).addTo(feature_group_08187087c4dd49d1bf675f05a4dacf83);
+        
+    
+            var icon_97db55f4eaf641099895f5b30a164676 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bd2e90d9800240018c8021ec26ae69db.setIcon(icon_97db55f4eaf641099895f5b30a164676);
+        
+    
+        var popup_f160b24a48cd48ca81c5179e03f08d32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f96cdb16e0d4311939a8ca60e3b80e3 = $(`<div id="html_3f96cdb16e0d4311939a8ca60e3b80e3" style="width: 100.0%; height: 100.0%;"><b>name: </b> images114.jpg<br> <b>LAT: </b> 13.8607131<br> <b>LOG: </b> 100.5214615<br><b>Class : </b> mend<br> <b>Time : </b> 07/02/2021 10:00:31 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew114.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew114.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_f160b24a48cd48ca81c5179e03f08d32.setContent(html_3f96cdb16e0d4311939a8ca60e3b80e3);
+        
+
+        marker_bd2e90d9800240018c8021ec26ae69db.bindPopup(popup_f160b24a48cd48ca81c5179e03f08d32)
+        ;
+
+        
+    
+    
+            var marker_5a08b8d21aba4b25956a4e72700e36ef = L.marker(
+                [13.881736, 100.5133566],
+                {}
+            ).addTo(feature_group_08187087c4dd49d1bf675f05a4dacf83);
+        
+    
+            var icon_3ffcc7af2fff4706b6717edd7bcecd43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5a08b8d21aba4b25956a4e72700e36ef.setIcon(icon_3ffcc7af2fff4706b6717edd7bcecd43);
+        
+    
+        var popup_e142ba758d8d4327b0d38e5944c8c43f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0bfad2df5c947ae87763592e4e8a4b0 = $(`<div id="html_f0bfad2df5c947ae87763592e4e8a4b0" style="width: 100.0%; height: 100.0%;"><b>name: </b> images264.jpg<br> <b>LAT: </b> 13.881736<br> <b>LOG: </b> 100.5133566<br><b>Class : </b> mend<br> <b>Time : </b> 07/02/2021 10:17:03 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew264.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew264.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_e142ba758d8d4327b0d38e5944c8c43f.setContent(html_f0bfad2df5c947ae87763592e4e8a4b0);
+        
+
+        marker_5a08b8d21aba4b25956a4e72700e36ef.bindPopup(popup_e142ba758d8d4327b0d38e5944c8c43f)
+        ;
+
+        
+    
+    
+            var marker_97b4c117e9b14c2a88464c77e8617505 = L.marker(
+                [13.870141, 100.4959379],
+                {}
+            ).addTo(feature_group_08187087c4dd49d1bf675f05a4dacf83);
+        
+    
+            var icon_a665603a0d8244a992fe27966b5acc9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_97b4c117e9b14c2a88464c77e8617505.setIcon(icon_a665603a0d8244a992fe27966b5acc9f);
+        
+    
+        var popup_712fafb069eb41d59ee96fd06d28ab7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b945fa7be4af49328bf314da641e1f0b = $(`<div id="html_b945fa7be4af49328bf314da641e1f0b" style="width: 100.0%; height: 100.0%;"><b>name: </b> images214.jpg<br> <b>LAT: </b> 13.870141<br> <b>LOG: </b> 100.4959379<br><b>Class : </b> mend<br> <b>Time : </b> 07/02/2021 10:09:08 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew214.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew214.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_712fafb069eb41d59ee96fd06d28ab7f.setContent(html_b945fa7be4af49328bf314da641e1f0b);
+        
+
+        marker_97b4c117e9b14c2a88464c77e8617505.bindPopup(popup_712fafb069eb41d59ee96fd06d28ab7f)
+        ;
+
+        
+    
+    
+            var marker_f27ef8f981a8415db96162b65fb59f0d = L.marker(
+                [13.8636494, 100.5203676],
+                {}
+            ).addTo(feature_group_08187087c4dd49d1bf675f05a4dacf83);
+        
+    
+            var icon_9ab49252c2ae4e5082d97e115343efed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f27ef8f981a8415db96162b65fb59f0d.setIcon(icon_9ab49252c2ae4e5082d97e115343efed);
+        
+    
+        var popup_d497f846b3404198b8be85cec662c4a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_110e7a179ac34037ab56ec841ca3ea64 = $(`<div id="html_110e7a179ac34037ab56ec841ca3ea64" style="width: 100.0%; height: 100.0%;"><b>name: </b> images109.jpg<br> <b>LAT: </b> 13.8636494<br> <b>LOG: </b> 100.5203676<br><b>Class : </b> mend<br> <b>Time : </b> 07/02/2021 09:58:30 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew109.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew109.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_d497f846b3404198b8be85cec662c4a6.setContent(html_110e7a179ac34037ab56ec841ca3ea64);
+        
+
+        marker_f27ef8f981a8415db96162b65fb59f0d.bindPopup(popup_d497f846b3404198b8be85cec662c4a6)
+        ;
+
+        
+    
+    
+            var marker_550e15eb553c4f0392bbf1e564c05c8f = L.marker(
+                [13.8674677, 100.4909413],
+                {}
+            ).addTo(feature_group_08187087c4dd49d1bf675f05a4dacf83);
+        
+    
+            var icon_afe612506d3a4406a037ccd47a4da281 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_550e15eb553c4f0392bbf1e564c05c8f.setIcon(icon_afe612506d3a4406a037ccd47a4da281);
+        
+    
+        var popup_a32c7909d276403eaa7187c288e91638 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd0fc68acced4bd5b822e31096958ab5 = $(`<div id="html_dd0fc68acced4bd5b822e31096958ab5" style="width: 100.0%; height: 100.0%;"><b>name: </b> images205.jpg<br> <b>LAT: </b> 13.8674677<br> <b>LOG: </b> 100.4909413<br><b>Class : </b> mend<br> <b>Time : </b> 07/02/2021 10:07:20 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew205.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew205.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_a32c7909d276403eaa7187c288e91638.setContent(html_dd0fc68acced4bd5b822e31096958ab5);
+        
+
+        marker_550e15eb553c4f0392bbf1e564c05c8f.bindPopup(popup_a32c7909d276403eaa7187c288e91638)
+        ;
+
+        
+    
+    
+            var marker_5f326da645af4654b25339b2c7f1612b = L.marker(
+                [13.9058847, 100.5206456],
+                {}
+            ).addTo(feature_group_08187087c4dd49d1bf675f05a4dacf83);
+        
+    
+            var icon_a5d911dae6594efdbddb688166913cd4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5f326da645af4654b25339b2c7f1612b.setIcon(icon_a5d911dae6594efdbddb688166913cd4);
+        
+    
+        var popup_c40ea2cd6f134b73851d1c62ee241865 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a54bd58d6ce941d4976abbb1dee8fbe8 = $(`<div id="html_a54bd58d6ce941d4976abbb1dee8fbe8" style="width: 100.0%; height: 100.0%;"><b>name: </b> images6.jpg<br> <b>LAT: </b> 13.9058847<br> <b>LOG: </b> 100.5206456<br><b>Class : </b> mend<br> <b>Time : </b> 07/02/2021 09:41:14 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew6.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew6.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_c40ea2cd6f134b73851d1c62ee241865.setContent(html_a54bd58d6ce941d4976abbb1dee8fbe8);
+        
+
+        marker_5f326da645af4654b25339b2c7f1612b.bindPopup(popup_c40ea2cd6f134b73851d1c62ee241865)
+        ;
+
+        
+    
+    
+            var marker_04cc21379b194e36be211b0034999fa8 = L.marker(
+                [13.9043055, 100.5049998],
+                {}
+            ).addTo(feature_group_08187087c4dd49d1bf675f05a4dacf83);
+        
+    
+            var icon_94d67c6f418b41f3aa813bcfb130be66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_04cc21379b194e36be211b0034999fa8.setIcon(icon_94d67c6f418b41f3aa813bcfb130be66);
+        
+    
+        var popup_5e9bd3970530402eb8996bf1d09357a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f696d81212974bcd98ad9b2f329a677d = $(`<div id="html_f696d81212974bcd98ad9b2f329a677d" style="width: 100.0%; height: 100.0%;"><b>name: </b> images59.jpg<br> <b>LAT: </b> 13.9043055<br> <b>LOG: </b> 100.5049998<br><b>Class : </b> mend<br> <b>Time : </b> 07/02/2021 09:44:54 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew59.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew59.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_5e9bd3970530402eb8996bf1d09357a1.setContent(html_f696d81212974bcd98ad9b2f329a677d);
+        
+
+        marker_04cc21379b194e36be211b0034999fa8.bindPopup(popup_5e9bd3970530402eb8996bf1d09357a1)
+        ;
+
+        
+    
+    
+            var marker_5772870a16f043c48d8db6164c429e78 = L.marker(
+                [13.859717, 100.515385],
+                {}
+            ).addTo(feature_group_08187087c4dd49d1bf675f05a4dacf83);
+        
+    
+            var icon_ff7f0ad0277042d089a4519efec2fbd3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5772870a16f043c48d8db6164c429e78.setIcon(icon_ff7f0ad0277042d089a4519efec2fbd3);
+        
+    
+        var popup_34e43c47b365438b946e3d7cab7a1e48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ea87b34c1fa4aa7aaa8790ca9759d1b = $(`<div id="html_3ea87b34c1fa4aa7aaa8790ca9759d1b" style="width: 100.0%; height: 100.0%;"><b>name: </b> images142.jpg<br> <b>LAT: </b> 13.859717<br> <b>LOG: </b> 100.515385<br><b>Class : </b> mend<br> <b>Time : </b> 07/02/2021 10:03:51 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew142.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew142.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_34e43c47b365438b946e3d7cab7a1e48.setContent(html_3ea87b34c1fa4aa7aaa8790ca9759d1b);
+        
+
+        marker_5772870a16f043c48d8db6164c429e78.bindPopup(popup_34e43c47b365438b946e3d7cab7a1e48)
+        ;
+
+        
+    
+    
+            var marker_2f2d97d4add948f4b3f1657a97b73808 = L.marker(
+                [13.8800416, 100.5139827],
+                {}
+            ).addTo(feature_group_08187087c4dd49d1bf675f05a4dacf83);
+        
+    
+            var icon_b8bbc7b59e5741b6be6585403f455e57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2f2d97d4add948f4b3f1657a97b73808.setIcon(icon_b8bbc7b59e5741b6be6585403f455e57);
+        
+    
+        var popup_16828b4117a248ac9d4d81ec603df558 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0df84da77db34b49a9c2fd98a106e0ad = $(`<div id="html_0df84da77db34b49a9c2fd98a106e0ad" style="width: 100.0%; height: 100.0%;"><b>name: </b> images260.jpg<br> <b>LAT: </b> 13.8800416<br> <b>LOG: </b> 100.5139827<br><b>Class : </b> mend<br> <b>Time : </b> 07/02/2021 10:16:36 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew260.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew260.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_16828b4117a248ac9d4d81ec603df558.setContent(html_0df84da77db34b49a9c2fd98a106e0ad);
+        
+
+        marker_2f2d97d4add948f4b3f1657a97b73808.bindPopup(popup_16828b4117a248ac9d4d81ec603df558)
+        ;
+
+        
+    
+    
+            var marker_d61d2ae4d8084874b6b7c1022f4be776 = L.marker(
+                [13.8639976, 100.5202698],
+                {}
+            ).addTo(feature_group_08187087c4dd49d1bf675f05a4dacf83);
+        
+    
+            var icon_686972c72bf346c48ddad809cc92bd61 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d61d2ae4d8084874b6b7c1022f4be776.setIcon(icon_686972c72bf346c48ddad809cc92bd61);
+        
+    
+        var popup_889d9df08997433ab498bdccf4126741 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29bb74bbc8fa43fcac161c87d4100b6b = $(`<div id="html_29bb74bbc8fa43fcac161c87d4100b6b" style="width: 100.0%; height: 100.0%;"><b>name: </b> images102.jpg<br> <b>LAT: </b> 13.8639976<br> <b>LOG: </b> 100.5202698<br><b>Class : </b> mend<br> <b>Time : </b> 07/02/2021 09:58:04 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew102.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew102.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_889d9df08997433ab498bdccf4126741.setContent(html_29bb74bbc8fa43fcac161c87d4100b6b);
+        
+
+        marker_d61d2ae4d8084874b6b7c1022f4be776.bindPopup(popup_889d9df08997433ab498bdccf4126741)
+        ;
+
+        
+    
+    
+            var marker_7c0f746fd635486fb84ba11af3447aa3 = L.marker(
+                [13.8638142, 100.5202568],
+                {}
+            ).addTo(feature_group_08187087c4dd49d1bf675f05a4dacf83);
+        
+    
+            var icon_862d662d043b45f19ac5403c4e9a6f20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7c0f746fd635486fb84ba11af3447aa3.setIcon(icon_862d662d043b45f19ac5403c4e9a6f20);
+        
+    
+        var popup_c9a3874ef2884b21940f618293781206 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c48a824353148d48822964693039ba3 = $(`<div id="html_6c48a824353148d48822964693039ba3" style="width: 100.0%; height: 100.0%;"><b>name: </b> images106.jpg<br> <b>LAT: </b> 13.8638142<br> <b>LOG: </b> 100.5202568<br><b>Class : </b> mend<br> <b>Time : </b> 07/02/2021 09:58:14 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew106.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew106.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_c9a3874ef2884b21940f618293781206.setContent(html_6c48a824353148d48822964693039ba3);
+        
+
+        marker_7c0f746fd635486fb84ba11af3447aa3.bindPopup(popup_c9a3874ef2884b21940f618293781206)
+        ;
+
+        
+    
+    
+            var marker_d214b71a570e439d8b6270bb609c0c1f = L.marker(
+                [13.9071382, 100.5064447],
+                {}
+            ).addTo(feature_group_08187087c4dd49d1bf675f05a4dacf83);
+        
+    
+            var icon_011a85c8528f40ccb80928199652ba71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d214b71a570e439d8b6270bb609c0c1f.setIcon(icon_011a85c8528f40ccb80928199652ba71);
+        
+    
+        var popup_d68906c062e64fd7bb64c9aabc078f42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b27251d7e8c4d908f0733db9fb6dba9 = $(`<div id="html_2b27251d7e8c4d908f0733db9fb6dba9" style="width: 100.0%; height: 100.0%;"><b>name: </b> images44.jpg<br> <b>LAT: </b> 13.9071382<br> <b>LOG: </b> 100.5064447<br><b>Class : </b> mend<br> <b>Time : </b> 07/02/2021 09:43:58 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew44.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew44.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_d68906c062e64fd7bb64c9aabc078f42.setContent(html_2b27251d7e8c4d908f0733db9fb6dba9);
+        
+
+        marker_d214b71a570e439d8b6270bb609c0c1f.bindPopup(popup_d68906c062e64fd7bb64c9aabc078f42)
+        ;
+
+        
+    
+    
+            var marker_1ada88dc8da04bf3b64319f00439e218 = L.marker(
+                [13.905676, 100.5045031],
+                {}
+            ).addTo(feature_group_08187087c4dd49d1bf675f05a4dacf83);
+        
+    
+            var icon_aeb7cb6d0d0c4954b6bbbce4d65d37d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1ada88dc8da04bf3b64319f00439e218.setIcon(icon_aeb7cb6d0d0c4954b6bbbce4d65d37d1);
+        
+    
+        var popup_1a40f54c5984416d83a3819c8ed8fa11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2368586da00c44088b2037d7a373e8fa = $(`<div id="html_2368586da00c44088b2037d7a373e8fa" style="width: 100.0%; height: 100.0%;"><b>name: </b> images58.jpg<br> <b>LAT: </b> 13.905676<br> <b>LOG: </b> 100.5045031<br><b>Class : </b> mend<br> <b>Time : </b> 07/02/2021 09:44:38 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew58.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew58.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_1a40f54c5984416d83a3819c8ed8fa11.setContent(html_2368586da00c44088b2037d7a373e8fa);
+        
+
+        marker_1ada88dc8da04bf3b64319f00439e218.bindPopup(popup_1a40f54c5984416d83a3819c8ed8fa11)
+        ;
+
+        
+    
+    
+            var marker_fa2cfcc052f443f8b4e5082c225b9518 = L.marker(
+                [13.9059549, 100.5200107],
+                {}
+            ).addTo(feature_group_08187087c4dd49d1bf675f05a4dacf83);
+        
+    
+            var icon_2b87d78fd02c475ba3ce9b2f7e5b2ea8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fa2cfcc052f443f8b4e5082c225b9518.setIcon(icon_2b87d78fd02c475ba3ce9b2f7e5b2ea8);
+        
+    
+        var popup_a856e6d2916e40aaa6d52754d2fb0993 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df7145abb73a49658857eafebee41ad9 = $(`<div id="html_df7145abb73a49658857eafebee41ad9" style="width: 100.0%; height: 100.0%;"><b>name: </b> images9.jpg<br> <b>LAT: </b> 13.9059549<br> <b>LOG: </b> 100.5200107<br><b>Class : </b> mend<br> <b>Time : </b> 07/02/2021 09:41:22 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew9.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew9.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_a856e6d2916e40aaa6d52754d2fb0993.setContent(html_df7145abb73a49658857eafebee41ad9);
+        
+
+        marker_fa2cfcc052f443f8b4e5082c225b9518.bindPopup(popup_a856e6d2916e40aaa6d52754d2fb0993)
+        ;
+
+        
+    
+    
+            var marker_ca8980efd8264caaac00577ac2c745d0 = L.marker(
+                [13.9065282, 100.5138834],
+                {}
+            ).addTo(feature_group_08187087c4dd49d1bf675f05a4dacf83);
+        
+    
+            var icon_0f4c88a2f94a431086a5f8f991c82b4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ca8980efd8264caaac00577ac2c745d0.setIcon(icon_0f4c88a2f94a431086a5f8f991c82b4a);
+        
+    
+        var popup_b477e8fa408f44988a7b52114f4b751f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af976250999a43fc98a56b2b092ea11e = $(`<div id="html_af976250999a43fc98a56b2b092ea11e" style="width: 100.0%; height: 100.0%;"><b>name: </b> images25.jpg<br> <b>LAT: </b> 13.9065282<br> <b>LOG: </b> 100.5138834<br><b>Class : </b> mend<br> <b>Time : </b> 07/02/2021 09:42:44 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew25.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew25.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_b477e8fa408f44988a7b52114f4b751f.setContent(html_af976250999a43fc98a56b2b092ea11e);
+        
+
+        marker_ca8980efd8264caaac00577ac2c745d0.bindPopup(popup_b477e8fa408f44988a7b52114f4b751f)
+        ;
+
+        
+    
+    
+            var marker_87fd51891e834535b9ed60db9a1d8aa1 = L.marker(
+                [13.9063684, 100.5150417],
+                {}
+            ).addTo(feature_group_08187087c4dd49d1bf675f05a4dacf83);
+        
+    
+            var icon_ea96b905addc49528858e21886d8bd48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_87fd51891e834535b9ed60db9a1d8aa1.setIcon(icon_ea96b905addc49528858e21886d8bd48);
+        
+    
+        var popup_4ad30d46c423460492bf27701ca4293d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18b34e8df0ff48968d4af52d213c0b55 = $(`<div id="html_18b34e8df0ff48968d4af52d213c0b55" style="width: 100.0%; height: 100.0%;"><b>name: </b> images21.jpg<br> <b>LAT: </b> 13.9063684<br> <b>LOG: </b> 100.5150417<br><b>Class : </b> mend<br> <b>Time : </b> 07/02/2021 09:42:14 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew21.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew21.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_4ad30d46c423460492bf27701ca4293d.setContent(html_18b34e8df0ff48968d4af52d213c0b55);
+        
+
+        marker_87fd51891e834535b9ed60db9a1d8aa1.bindPopup(popup_4ad30d46c423460492bf27701ca4293d)
+        ;
+
+        
+    
+    
+            var marker_b34594013bde4ee098fd88f3ba931f88 = L.marker(
+                [13.9058847, 100.5206456],
+                {}
+            ).addTo(feature_group_08187087c4dd49d1bf675f05a4dacf83);
+        
+    
+            var icon_2adb48ba23ea40aea2463d4cb3466ffa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b34594013bde4ee098fd88f3ba931f88.setIcon(icon_2adb48ba23ea40aea2463d4cb3466ffa);
+        
+    
+        var popup_b91de87e075e4ddca08775c54a2cb0c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_022c56ed37f64041b1ae48ab3530c75e = $(`<div id="html_022c56ed37f64041b1ae48ab3530c75e" style="width: 100.0%; height: 100.0%;"><b>name: </b> images7.jpg<br> <b>LAT: </b> 13.9058847<br> <b>LOG: </b> 100.5206456<br><b>Class : </b> mend<br> <b>Time : </b> 07/02/2021 09:41:14 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew7.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew7.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_b91de87e075e4ddca08775c54a2cb0c1.setContent(html_022c56ed37f64041b1ae48ab3530c75e);
+        
+
+        marker_b34594013bde4ee098fd88f3ba931f88.bindPopup(popup_b91de87e075e4ddca08775c54a2cb0c1)
+        ;
+
+        
+    
+    
+            var marker_b4ff44cd231a4878b3da11b82f5cdb1b = L.marker(
+                [13.874425, 100.5163193],
+                {}
+            ).addTo(feature_group_08187087c4dd49d1bf675f05a4dacf83);
+        
+    
+            var icon_6266a75d911f4b5fb1b9ab94c7a2c4ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b4ff44cd231a4878b3da11b82f5cdb1b.setIcon(icon_6266a75d911f4b5fb1b9ab94c7a2c4ac);
+        
+    
+        var popup_f4bbbca4f4ed40aeaf5be7848883e78a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed4dc4691a744c50a9711bc7a6add76c = $(`<div id="html_ed4dc4691a744c50a9711bc7a6add76c" style="width: 100.0%; height: 100.0%;"><b>name: </b> images81.jpg<br> <b>LAT: </b> 13.874425<br> <b>LOG: </b> 100.5163193<br><b>Class : </b> mend<br> <b>Time : </b> 07/02/2021 09:54:10 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew81.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew81.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_f4bbbca4f4ed40aeaf5be7848883e78a.setContent(html_ed4dc4691a744c50a9711bc7a6add76c);
+        
+
+        marker_b4ff44cd231a4878b3da11b82f5cdb1b.bindPopup(popup_f4bbbca4f4ed40aeaf5be7848883e78a)
+        ;
+
+        
+    
+    
+            var marker_7eb90d3f988a473ca6ab5342cc3af90b = L.marker(
+                [13.8654661, 100.5196868],
+                {}
+            ).addTo(feature_group_08187087c4dd49d1bf675f05a4dacf83);
+        
+    
+            var icon_6311262ec5ef47849a6fe7b437a267a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7eb90d3f988a473ca6ab5342cc3af90b.setIcon(icon_6311262ec5ef47849a6fe7b437a267a5);
+        
+    
+        var popup_5109c0b7913449f9b4620146192737f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45772e9010044a569909b02c72bc04bb = $(`<div id="html_45772e9010044a569909b02c72bc04bb" style="width: 100.0%; height: 100.0%;"><b>name: </b> images96.jpg<br> <b>LAT: </b> 13.8654661<br> <b>LOG: </b> 100.5196868<br><b>Class : </b> mend<br> <b>Time : </b> 07/02/2021 09:57:16 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew96.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew96.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_5109c0b7913449f9b4620146192737f7.setContent(html_45772e9010044a569909b02c72bc04bb);
+        
+
+        marker_7eb90d3f988a473ca6ab5342cc3af90b.bindPopup(popup_5109c0b7913449f9b4620146192737f7)
+        ;
+
+        
+    
+    
+            var feature_group_92451b1b420f48de879532a73dd15151 = L.featureGroup(
+                {}
+            ).addTo(map_934fa8fd899543c98988c7dcec2d8be7);
+        
+    
+            var marker_5e402a004e6b4ca88fc6a26f54145623 = L.marker(
+                [13.8841338, 100.5124629],
+                {}
+            ).addTo(feature_group_92451b1b420f48de879532a73dd15151);
+        
+    
+            var icon_71896b8c31984600b14295f09b733158 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5e402a004e6b4ca88fc6a26f54145623.setIcon(icon_71896b8c31984600b14295f09b733158);
+        
+    
+        var popup_b7e260ee778a4631a16c33a8274c38f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_213d346ad5554f8d9a9f2049678c709a = $(`<div id="html_213d346ad5554f8d9a9f2049678c709a" style="width: 100.0%; height: 100.0%;"><b>name: </b> images269.jpg<br> <b>LAT: </b> 13.8841338<br> <b>LOG: </b> 100.5124629<br><b>Class : </b> cracks<br> <b>Time : </b> 07/02/2021 10:17:31 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew269.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew269.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_b7e260ee778a4631a16c33a8274c38f9.setContent(html_213d346ad5554f8d9a9f2049678c709a);
+        
+
+        marker_5e402a004e6b4ca88fc6a26f54145623.bindPopup(popup_b7e260ee778a4631a16c33a8274c38f9)
+        ;
+
+        
+    
+    
+            var marker_25c846b1e6af43c09ce02bdcfa81ee44 = L.marker(
+                [13.860183, 100.511655],
+                {}
+            ).addTo(feature_group_92451b1b420f48de879532a73dd15151);
+        
+    
+            var icon_b10ba1eca5094b378a7b9a143c44ca5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_25c846b1e6af43c09ce02bdcfa81ee44.setIcon(icon_b10ba1eca5094b378a7b9a143c44ca5e);
+        
+    
+        var popup_e902fd2c6ccb4dca8bfccc3923c2cca4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e213e4b8c3cd41f78ebf3c5cd56c7046 = $(`<div id="html_e213e4b8c3cd41f78ebf3c5cd56c7046" style="width: 100.0%; height: 100.0%;"><b>name: </b> images163.jpg<br> <b>LAT: </b> 13.860183<br> <b>LOG: </b> 100.511655<br><b>Class : </b> cracks<br> <b>Time : </b> 07/02/2021 10:04:31 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew163.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew163.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_e902fd2c6ccb4dca8bfccc3923c2cca4.setContent(html_e213e4b8c3cd41f78ebf3c5cd56c7046);
+        
+
+        marker_25c846b1e6af43c09ce02bdcfa81ee44.bindPopup(popup_e902fd2c6ccb4dca8bfccc3923c2cca4)
+        ;
+
+        
+    
+    
+            var marker_b801be4d0a31476ab196213efaa91823 = L.marker(
+                [13.8789045, 100.5102333],
+                {}
+            ).addTo(feature_group_92451b1b420f48de879532a73dd15151);
+        
+    
+            var icon_734e4c09d8854a6cb5a610599b1a81a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b801be4d0a31476ab196213efaa91823.setIcon(icon_734e4c09d8854a6cb5a610599b1a81a6);
+        
+    
+        var popup_31fb529fbfe940d299cb9fae4ea4cdec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03c4e66c86d54a019b9d8c01c652e771 = $(`<div id="html_03c4e66c86d54a019b9d8c01c652e771" style="width: 100.0%; height: 100.0%;"><b>name: </b> images250.jpg<br> <b>LAT: </b> 13.8789045<br> <b>LOG: </b> 100.5102333<br><b>Class : </b> cracks<br> <b>Time : </b> 07/02/2021 10:14:29 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew250.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew250.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_31fb529fbfe940d299cb9fae4ea4cdec.setContent(html_03c4e66c86d54a019b9d8c01c652e771);
+        
+
+        marker_b801be4d0a31476ab196213efaa91823.bindPopup(popup_31fb529fbfe940d299cb9fae4ea4cdec)
+        ;
+
+        
+    
+    
+            var marker_9c9e641b59e84ae48ba7a9f97dc37c59 = L.marker(
+                [13.8780868, 100.5142826],
+                {}
+            ).addTo(feature_group_92451b1b420f48de879532a73dd15151);
+        
+    
+            var icon_833266b802024e87b03721791381e7c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9c9e641b59e84ae48ba7a9f97dc37c59.setIcon(icon_833266b802024e87b03721791381e7c2);
+        
+    
+        var popup_c5c443fc43a547a88c9093b7c7481631 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3168f0e4ac049f4adb396ccde51bad0 = $(`<div id="html_c3168f0e4ac049f4adb396ccde51bad0" style="width: 100.0%; height: 100.0%;"><b>name: </b> images256.jpg<br> <b>LAT: </b> 13.8780868<br> <b>LOG: </b> 100.5142826<br><b>Class : </b> cracks<br> <b>Time : </b> 07/02/2021 10:15:27 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew256.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew256.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_c5c443fc43a547a88c9093b7c7481631.setContent(html_c3168f0e4ac049f4adb396ccde51bad0);
+        
+
+        marker_9c9e641b59e84ae48ba7a9f97dc37c59.bindPopup(popup_c5c443fc43a547a88c9093b7c7481631)
+        ;
+
+        
+    
+    
+            var marker_d60edfefa0a54a8693c16afb9dd4068a = L.marker(
+                [13.8807384, 100.5017447],
+                {}
+            ).addTo(feature_group_92451b1b420f48de879532a73dd15151);
+        
+    
+            var icon_9f2429d8834a4007b98b844b8b8fcf38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d60edfefa0a54a8693c16afb9dd4068a.setIcon(icon_9f2429d8834a4007b98b844b8b8fcf38);
+        
+    
+        var popup_5623ef43a4c4436bad934cded4d9f886 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_992c546c7a7744c3ab9694569a085e8d = $(`<div id="html_992c546c7a7744c3ab9694569a085e8d" style="width: 100.0%; height: 100.0%;"><b>name: </b> images229.jpg<br> <b>LAT: </b> 13.8807384<br> <b>LOG: </b> 100.5017447<br><b>Class : </b> cracks<br> <b>Time : </b> 07/02/2021 10:12:21 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew229.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew229.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_5623ef43a4c4436bad934cded4d9f886.setContent(html_992c546c7a7744c3ab9694569a085e8d);
+        
+
+        marker_d60edfefa0a54a8693c16afb9dd4068a.bindPopup(popup_5623ef43a4c4436bad934cded4d9f886)
+        ;
+
+        
+    
+    
+            var marker_63cff575d7fa4d1ebd13b238a9c6fae4 = L.marker(
+                [13.8642997, 100.4970849],
+                {}
+            ).addTo(feature_group_92451b1b420f48de879532a73dd15151);
+        
+    
+            var icon_73c8703d58a549b0816a0256a6da96e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_63cff575d7fa4d1ebd13b238a9c6fae4.setIcon(icon_73c8703d58a549b0816a0256a6da96e5);
+        
+    
+        var popup_3984a1cc8ae64735b187d42224d351d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b282600bc6e14fc8abb90b96aee1d9ff = $(`<div id="html_b282600bc6e14fc8abb90b96aee1d9ff" style="width: 100.0%; height: 100.0%;"><b>name: </b> images198.jpg<br> <b>LAT: </b> 13.8642997<br> <b>LOG: </b> 100.4970849<br><b>Class : </b> cracks<br> <b>Time : </b> 07/02/2021 10:06:30 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew198.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew198.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_3984a1cc8ae64735b187d42224d351d4.setContent(html_b282600bc6e14fc8abb90b96aee1d9ff);
+        
+
+        marker_63cff575d7fa4d1ebd13b238a9c6fae4.bindPopup(popup_3984a1cc8ae64735b187d42224d351d4)
+        ;
+
+        
+    
+    
+            var marker_48678f2968454423a3c7fb08a031cc81 = L.marker(
+                [13.8781295, 100.5140322],
+                {}
+            ).addTo(feature_group_92451b1b420f48de879532a73dd15151);
+        
+    
+            var icon_7a34da95ae5a49adbb158bb2d68452d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_48678f2968454423a3c7fb08a031cc81.setIcon(icon_7a34da95ae5a49adbb158bb2d68452d7);
+        
+    
+        var popup_22b112f841184d58ac76856359e1ffcb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30d59814dcec4f83bdec93fd638f36a9 = $(`<div id="html_30d59814dcec4f83bdec93fd638f36a9" style="width: 100.0%; height: 100.0%;"><b>name: </b> images252.jpg<br> <b>LAT: </b> 13.8781295<br> <b>LOG: </b> 100.5140322<br><b>Class : </b> cracks<br> <b>Time : </b> 07/02/2021 10:15:02 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew252.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew252.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_22b112f841184d58ac76856359e1ffcb.setContent(html_30d59814dcec4f83bdec93fd638f36a9);
+        
+
+        marker_48678f2968454423a3c7fb08a031cc81.bindPopup(popup_22b112f841184d58ac76856359e1ffcb)
+        ;
+
+        
+    
+    
+            var marker_24290a58ce0348f7b5450d76dea7b64d = L.marker(
+                [13.8781243, 100.5140495],
+                {}
+            ).addTo(feature_group_92451b1b420f48de879532a73dd15151);
+        
+    
+            var icon_f8a05aeab0a740d1af2020967e5ff2cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_24290a58ce0348f7b5450d76dea7b64d.setIcon(icon_f8a05aeab0a740d1af2020967e5ff2cc);
+        
+    
+        var popup_cb5878a1cf6a46d19a8f07d1dff5c034 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fbbee91ef371471f981ed51ec5178105 = $(`<div id="html_fbbee91ef371471f981ed51ec5178105" style="width: 100.0%; height: 100.0%;"><b>name: </b> images253.jpg<br> <b>LAT: </b> 13.8781243<br> <b>LOG: </b> 100.5140495<br><b>Class : </b> cracks<br> <b>Time : </b> 07/02/2021 10:15:03 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew253.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew253.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_cb5878a1cf6a46d19a8f07d1dff5c034.setContent(html_fbbee91ef371471f981ed51ec5178105);
+        
+
+        marker_24290a58ce0348f7b5450d76dea7b64d.bindPopup(popup_cb5878a1cf6a46d19a8f07d1dff5c034)
+        ;
+
+        
+    
+    
+            var marker_8c44ceec52bb4bc98e05daeedffd0fce = L.marker(
+                [13.8800213, 100.5051564],
+                {}
+            ).addTo(feature_group_92451b1b420f48de879532a73dd15151);
+        
+    
+            var icon_96f553f1ce844d4e8fa0528c0fc853c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8c44ceec52bb4bc98e05daeedffd0fce.setIcon(icon_96f553f1ce844d4e8fa0528c0fc853c3);
+        
+    
+        var popup_fc5f5257da804da38cf2cf308a360d03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27a73db7d20f420e89dae0195a000d7d = $(`<div id="html_27a73db7d20f420e89dae0195a000d7d" style="width: 100.0%; height: 100.0%;"><b>name: </b> images237.jpg<br> <b>LAT: </b> 13.8800213<br> <b>LOG: </b> 100.5051564<br><b>Class : </b> cracks<br> <b>Time : </b> 07/02/2021 10:13:37 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew237.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew237.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_fc5f5257da804da38cf2cf308a360d03.setContent(html_27a73db7d20f420e89dae0195a000d7d);
+        
+
+        marker_8c44ceec52bb4bc98e05daeedffd0fce.bindPopup(popup_fc5f5257da804da38cf2cf308a360d03)
+        ;
+
+        
+    
+    
+            var marker_ede1f59fa4df4988b64cbbcb0496c355 = L.marker(
+                [13.878954, 100.510013],
+                {}
+            ).addTo(feature_group_92451b1b420f48de879532a73dd15151);
+        
+    
+            var icon_1be80d3cef674d62b4ee7894de5926fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ede1f59fa4df4988b64cbbcb0496c355.setIcon(icon_1be80d3cef674d62b4ee7894de5926fd);
+        
+    
+        var popup_b591cdefb2564aefad8c231a09e8c016 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_360d9964662c4eb88fa88be533d46b03 = $(`<div id="html_360d9964662c4eb88fa88be533d46b03" style="width: 100.0%; height: 100.0%;"><b>name: </b> images249.jpg<br> <b>LAT: </b> 13.878954<br> <b>LOG: </b> 100.510013<br><b>Class : </b> cracks<br> <b>Time : </b> 07/02/2021 10:14:27 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew249.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew249.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_b591cdefb2564aefad8c231a09e8c016.setContent(html_360d9964662c4eb88fa88be533d46b03);
+        
+
+        marker_ede1f59fa4df4988b64cbbcb0496c355.bindPopup(popup_b591cdefb2564aefad8c231a09e8c016)
+        ;
+
+        
+    
+    
+            var marker_aaca47dbeb474ac28040cade100e12c6 = L.marker(
+                [13.8646022, 100.4964593],
+                {}
+            ).addTo(feature_group_92451b1b420f48de879532a73dd15151);
+        
+    
+            var icon_7c9dbe7082274eefb2a0cb1e3eed4c85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_aaca47dbeb474ac28040cade100e12c6.setIcon(icon_7c9dbe7082274eefb2a0cb1e3eed4c85);
+        
+    
+        var popup_73909c9107b64e3889601282b1598476 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf53443bd1ae4393a0997a2382b51707 = $(`<div id="html_bf53443bd1ae4393a0997a2382b51707" style="width: 100.0%; height: 100.0%;"><b>name: </b> images200.jpg<br> <b>LAT: </b> 13.8646022<br> <b>LOG: </b> 100.4964593<br><b>Class : </b> cracks<br> <b>Time : </b> 07/02/2021 10:06:34 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew200.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew200.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_73909c9107b64e3889601282b1598476.setContent(html_bf53443bd1ae4393a0997a2382b51707);
+        
+
+        marker_aaca47dbeb474ac28040cade100e12c6.bindPopup(popup_73909c9107b64e3889601282b1598476)
+        ;
+
+        
+    
+    
+            var marker_1d33bf007c7a40d3a547b4652b8e5349 = L.marker(
+                [13.8602294, 100.5215956],
+                {}
+            ).addTo(feature_group_92451b1b420f48de879532a73dd15151);
+        
+    
+            var icon_6d2887a39f62480bb83c67a358981cfa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1d33bf007c7a40d3a547b4652b8e5349.setIcon(icon_6d2887a39f62480bb83c67a358981cfa);
+        
+    
+        var popup_89f2253decba425e89c62f4624eab93a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_740a821975604a13bf34c3abae337caa = $(`<div id="html_740a821975604a13bf34c3abae337caa" style="width: 100.0%; height: 100.0%;"><b>name: </b> images116.jpg<br> <b>LAT: </b> 13.8602294<br> <b>LOG: </b> 100.5215956<br><b>Class : </b> cracks<br> <b>Time : </b> 07/02/2021 10:00:37 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew116.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew116.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_89f2253decba425e89c62f4624eab93a.setContent(html_740a821975604a13bf34c3abae337caa);
+        
+
+        marker_1d33bf007c7a40d3a547b4652b8e5349.bindPopup(popup_89f2253decba425e89c62f4624eab93a)
+        ;
+
+        
+    
+    
+            var marker_fcb270e67708437889cfe908c8689bfd = L.marker(
+                [13.8896669, 100.5104899],
+                {}
+            ).addTo(feature_group_92451b1b420f48de879532a73dd15151);
+        
+    
+            var icon_3ce0688903c64f03a3678573d38629fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fcb270e67708437889cfe908c8689bfd.setIcon(icon_3ce0688903c64f03a3678573d38629fd);
+        
+    
+        var popup_93d28b4d77b34da198d05e609176dbbb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b17d20056e14e7ba9408336f0afa69f = $(`<div id="html_4b17d20056e14e7ba9408336f0afa69f" style="width: 100.0%; height: 100.0%;"><b>name: </b> images72.jpg<br> <b>LAT: </b> 13.8896669<br> <b>LOG: </b> 100.5104899<br><b>Class : </b> cracks<br> <b>Time : </b> 07/02/2021 09:47:42 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew72.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew72.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_93d28b4d77b34da198d05e609176dbbb.setContent(html_4b17d20056e14e7ba9408336f0afa69f);
+        
+
+        marker_fcb270e67708437889cfe908c8689bfd.bindPopup(popup_93d28b4d77b34da198d05e609176dbbb)
+        ;
+
+        
+    
+    
+            var marker_8e24efee394347fba14a5968fc718740 = L.marker(
+                [13.8668751, 100.4928609],
+                {}
+            ).addTo(feature_group_92451b1b420f48de879532a73dd15151);
+        
+    
+            var icon_0fbd93e45c4a4813a08e108424a5ccad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8e24efee394347fba14a5968fc718740.setIcon(icon_0fbd93e45c4a4813a08e108424a5ccad);
+        
+    
+        var popup_608a2c1c24a3465eb8aa55002787bb4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4474803f6c214084baad9983eb1b534c = $(`<div id="html_4474803f6c214084baad9983eb1b534c" style="width: 100.0%; height: 100.0%;"><b>name: </b> images207.jpg<br> <b>LAT: </b> 13.8668751<br> <b>LOG: </b> 100.4928609<br><b>Class : </b> cracks<br> <b>Time : </b> 07/02/2021 10:08:08 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew207.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew207.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_608a2c1c24a3465eb8aa55002787bb4e.setContent(html_4474803f6c214084baad9983eb1b534c);
+        
+
+        marker_8e24efee394347fba14a5968fc718740.bindPopup(popup_608a2c1c24a3465eb8aa55002787bb4e)
+        ;
+
+        
+    
+    
+            var marker_43b9cc7457ba424f9b00fcb68f34d5de = L.marker(
+                [13.8660347, 100.5195017],
+                {}
+            ).addTo(feature_group_92451b1b420f48de879532a73dd15151);
+        
+    
+            var icon_7e1db5b36fe64414ad8eb8c2d339bfa9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_43b9cc7457ba424f9b00fcb68f34d5de.setIcon(icon_7e1db5b36fe64414ad8eb8c2d339bfa9);
+        
+    
+        var popup_adc53bd3556f4e90a216429fab745472 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76225d7bfd4c4dcf8f4be4642f06147f = $(`<div id="html_76225d7bfd4c4dcf8f4be4642f06147f" style="width: 100.0%; height: 100.0%;"><b>name: </b> images93.jpg<br> <b>LAT: </b> 13.8660347<br> <b>LOG: </b> 100.5195017<br><b>Class : </b> cracks<br> <b>Time : </b> 07/02/2021 09:57:04 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew93.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew93.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_adc53bd3556f4e90a216429fab745472.setContent(html_76225d7bfd4c4dcf8f4be4642f06147f);
+        
+
+        marker_43b9cc7457ba424f9b00fcb68f34d5de.bindPopup(popup_adc53bd3556f4e90a216429fab745472)
+        ;
+
+        
+    
+    
+            var marker_5d7484a2bec24e1d87163b31d2183ff9 = L.marker(
+                [13.8600737, 100.5216319],
+                {}
+            ).addTo(feature_group_92451b1b420f48de879532a73dd15151);
+        
+    
+            var icon_6fe9c790e8a74b20bc23c9cc577c62f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5d7484a2bec24e1d87163b31d2183ff9.setIcon(icon_6fe9c790e8a74b20bc23c9cc577c62f2);
+        
+    
+        var popup_ad079f6f3e3d42d18fbb66c72cd32325 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d02894a2d20b424f93a82df75112fb56 = $(`<div id="html_d02894a2d20b424f93a82df75112fb56" style="width: 100.0%; height: 100.0%;"><b>name: </b> images117.jpg<br> <b>LAT: </b> 13.8600737<br> <b>LOG: </b> 100.5216319<br><b>Class : </b> cracks<br> <b>Time : </b> 07/02/2021 10:00:39 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew117.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew117.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_ad079f6f3e3d42d18fbb66c72cd32325.setContent(html_d02894a2d20b424f93a82df75112fb56);
+        
+
+        marker_5d7484a2bec24e1d87163b31d2183ff9.bindPopup(popup_ad079f6f3e3d42d18fbb66c72cd32325)
+        ;
+
+        
+    
+    
+            var marker_ef6eb9075b4e43a99ca4ae42763f1a0b = L.marker(
+                [13.8780868, 100.5142826],
+                {}
+            ).addTo(feature_group_92451b1b420f48de879532a73dd15151);
+        
+    
+            var icon_f428a15d1c5d40048c2b8568a981c91e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ef6eb9075b4e43a99ca4ae42763f1a0b.setIcon(icon_f428a15d1c5d40048c2b8568a981c91e);
+        
+    
+        var popup_19eb807a5a0a48c1a3e3fa1c7275dd35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e6ab470ad1f4a85b3e38cdb3fa6eca2 = $(`<div id="html_9e6ab470ad1f4a85b3e38cdb3fa6eca2" style="width: 100.0%; height: 100.0%;"><b>name: </b> images255.jpg<br> <b>LAT: </b> 13.8780868<br> <b>LOG: </b> 100.5142826<br><b>Class : </b> cracks<br> <b>Time : </b> 07/02/2021 10:15:27 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew255.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew255.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_19eb807a5a0a48c1a3e3fa1c7275dd35.setContent(html_9e6ab470ad1f4a85b3e38cdb3fa6eca2);
+        
+
+        marker_ef6eb9075b4e43a99ca4ae42763f1a0b.bindPopup(popup_19eb807a5a0a48c1a3e3fa1c7275dd35)
+        ;
+
+        
+    
+    
+            var marker_ea148b93e0f14db391cf8f6d6b4083b5 = L.marker(
+                [13.9070423, 100.5076358],
+                {}
+            ).addTo(feature_group_92451b1b420f48de879532a73dd15151);
+        
+    
+            var icon_5fc4ec9b2b384bceb9a3207a2610a7fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ea148b93e0f14db391cf8f6d6b4083b5.setIcon(icon_5fc4ec9b2b384bceb9a3207a2610a7fb);
+        
+    
+        var popup_dbca4f9d59dd45528d61adc85bfa4815 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d5a33f5d8514c8096cdf72e42729613 = $(`<div id="html_0d5a33f5d8514c8096cdf72e42729613" style="width: 100.0%; height: 100.0%;"><b>name: </b> images40.jpg<br> <b>LAT: </b> 13.9070423<br> <b>LOG: </b> 100.5076358<br><b>Class : </b> cracks<br> <b>Time : </b> 07/02/2021 09:43:46 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew40.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew40.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_dbca4f9d59dd45528d61adc85bfa4815.setContent(html_0d5a33f5d8514c8096cdf72e42729613);
+        
+
+        marker_ea148b93e0f14db391cf8f6d6b4083b5.bindPopup(popup_dbca4f9d59dd45528d61adc85bfa4815)
+        ;
+
+        
+    
+    
+            var marker_10a69c506ecc40fbab381e83c5204538 = L.marker(
+                [13.8898268, 100.5104305],
+                {}
+            ).addTo(feature_group_92451b1b420f48de879532a73dd15151);
+        
+    
+            var icon_22672c2103c84653a71dd819b1172205 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_10a69c506ecc40fbab381e83c5204538.setIcon(icon_22672c2103c84653a71dd819b1172205);
+        
+    
+        var popup_7ccfd665305240f386e2c7ba6880742b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99ceb702b8ba41688d517a54d614d2ec = $(`<div id="html_99ceb702b8ba41688d517a54d614d2ec" style="width: 100.0%; height: 100.0%;"><b>name: </b> images71.jpg<br> <b>LAT: </b> 13.8898268<br> <b>LOG: </b> 100.5104305<br><b>Class : </b> cracks<br> <b>Time : </b> 07/02/2021 09:47:40 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew71.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew71.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_7ccfd665305240f386e2c7ba6880742b.setContent(html_99ceb702b8ba41688d517a54d614d2ec);
+        
+
+        marker_10a69c506ecc40fbab381e83c5204538.bindPopup(popup_7ccfd665305240f386e2c7ba6880742b)
+        ;
+
+        
+    
+    
+            var marker_50c02fdd6fe4437b8974a2769e982530 = L.marker(
+                [13.905782, 100.521686],
+                {}
+            ).addTo(feature_group_92451b1b420f48de879532a73dd15151);
+        
+    
+            var icon_a5ab9c532d784178a6a58761d23e6081 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_50c02fdd6fe4437b8974a2769e982530.setIcon(icon_a5ab9c532d784178a6a58761d23e6081);
+        
+    
+        var popup_6c4e0dbcda0c49cc930f7c2671c6537e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c7fb4e24b674774b0fb6cad2a66440e = $(`<div id="html_2c7fb4e24b674774b0fb6cad2a66440e" style="width: 100.0%; height: 100.0%;"><b>name: </b> images4.jpg<br> <b>LAT: </b> 13.905782<br> <b>LOG: </b> 100.521686<br><b>Class : </b> cracks<br> <b>Time : </b> 07/02/2021 09:41:00 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew4.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew4.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_6c4e0dbcda0c49cc930f7c2671c6537e.setContent(html_2c7fb4e24b674774b0fb6cad2a66440e);
+        
+
+        marker_50c02fdd6fe4437b8974a2769e982530.bindPopup(popup_6c4e0dbcda0c49cc930f7c2671c6537e)
+        ;
+
+        
+    
+    
+            var marker_120625d7ebe94bfb9002a1632e503e2e = L.marker(
+                [13.871997, 100.4957571],
+                {}
+            ).addTo(feature_group_92451b1b420f48de879532a73dd15151);
+        
+    
+            var icon_c03b6deb6829444a9b189fd6a827d960 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_120625d7ebe94bfb9002a1632e503e2e.setIcon(icon_c03b6deb6829444a9b189fd6a827d960);
+        
+    
+        var popup_9cc6fb2b2dd344cf81b45e56253e3fe6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73a17d9ce19f492eab04467367c37c51 = $(`<div id="html_73a17d9ce19f492eab04467367c37c51" style="width: 100.0%; height: 100.0%;"><b>name: </b> images217.jpg<br> <b>LAT: </b> 13.871997<br> <b>LOG: </b> 100.4957571<br><b>Class : </b> cracks<br> <b>Time : </b> 07/02/2021 10:09:24 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew217.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew217.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_9cc6fb2b2dd344cf81b45e56253e3fe6.setContent(html_73a17d9ce19f492eab04467367c37c51);
+        
+
+        marker_120625d7ebe94bfb9002a1632e503e2e.bindPopup(popup_9cc6fb2b2dd344cf81b45e56253e3fe6)
+        ;
+
+        
+    
+    
+            var marker_8e0925b014634bc99b1edcc89c26695b = L.marker(
+                [13.9061394, 100.5182367],
+                {}
+            ).addTo(feature_group_92451b1b420f48de879532a73dd15151);
+        
+    
+            var icon_1f559a37e9584bb68d5c7095e49e6c35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8e0925b014634bc99b1edcc89c26695b.setIcon(icon_1f559a37e9584bb68d5c7095e49e6c35);
+        
+    
+        var popup_d233f92d08a7429ca273b88c3ad55879 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81547b17276f4803b579980656fb76ed = $(`<div id="html_81547b17276f4803b579980656fb76ed" style="width: 100.0%; height: 100.0%;"><b>name: </b> images15.jpg<br> <b>LAT: </b> 13.9061394<br> <b>LOG: </b> 100.5182367<br><b>Class : </b> cracks<br> <b>Time : </b> 07/02/2021 09:41:40 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew15.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew15.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_d233f92d08a7429ca273b88c3ad55879.setContent(html_81547b17276f4803b579980656fb76ed);
+        
+
+        marker_8e0925b014634bc99b1edcc89c26695b.bindPopup(popup_d233f92d08a7429ca273b88c3ad55879)
+        ;
+
+        
+    
+    
+            var feature_group_d09b987ed5db44b58275d130ca14d3ee = L.featureGroup(
+                {}
+            ).addTo(map_934fa8fd899543c98988c7dcec2d8be7);
+        
+    
+            var marker_f29001b497044c37a1660bff6a48631a = L.marker(
+                [13.906815, 100.504244],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_faf360d7dbbc4b638ab974bd8ae36610 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f29001b497044c37a1660bff6a48631a.setIcon(icon_faf360d7dbbc4b638ab974bd8ae36610);
+        
+    
+        var popup_3005bd7c74904c79aef995505e079f3b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66d954ec8f724bb9beb25e5081112bd6 = $(`<div id="html_66d954ec8f724bb9beb25e5081112bd6" style="width: 100.0%; height: 100.0%;"><b>name: </b> images55.jpg<br> <b>LAT: </b> 13.906815<br> <b>LOG: </b> 100.504244<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:44:26 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew55.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew55.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_3005bd7c74904c79aef995505e079f3b.setContent(html_66d954ec8f724bb9beb25e5081112bd6);
+        
+
+        marker_f29001b497044c37a1660bff6a48631a.bindPopup(popup_3005bd7c74904c79aef995505e079f3b)
+        ;
+
+        
+    
+    
+            var marker_5c6e6f0bbb9b4843838a4b51de944209 = L.marker(
+                [13.8594623, 100.5173537],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_2282687d49a24b068a22dc25eed85eb7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5c6e6f0bbb9b4843838a4b51de944209.setIcon(icon_2282687d49a24b068a22dc25eed85eb7);
+        
+    
+        var popup_764229a909b44850a0d5e4c620dec09a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a560669906c4d3fb42d122c83bd7076 = $(`<div id="html_7a560669906c4d3fb42d122c83bd7076" style="width: 100.0%; height: 100.0%;"><b>name: </b> images133.jpg<br> <b>LAT: </b> 13.8594623<br> <b>LOG: </b> 100.5173537<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:03:33 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew133.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew133.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_764229a909b44850a0d5e4c620dec09a.setContent(html_7a560669906c4d3fb42d122c83bd7076);
+        
+
+        marker_5c6e6f0bbb9b4843838a4b51de944209.bindPopup(popup_764229a909b44850a0d5e4c620dec09a)
+        ;
+
+        
+    
+    
+            var marker_f8135b959f704b1bbad98e685897eea3 = L.marker(
+                [13.8916124, 100.5097577],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_87389782d27b4804adde49a43b1b6e2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f8135b959f704b1bbad98e685897eea3.setIcon(icon_87389782d27b4804adde49a43b1b6e2a);
+        
+    
+        var popup_f87e98eb771c40e1a5a4172f72406ee8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7e7d39674a04d5d8b870d4545ae1dca = $(`<div id="html_f7e7d39674a04d5d8b870d4545ae1dca" style="width: 100.0%; height: 100.0%;"><b>name: </b> images69.jpg<br> <b>LAT: </b> 13.8916124<br> <b>LOG: </b> 100.5097577<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:47:22 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew69.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew69.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_f87e98eb771c40e1a5a4172f72406ee8.setContent(html_f7e7d39674a04d5d8b870d4545ae1dca);
+        
+
+        marker_f8135b959f704b1bbad98e685897eea3.bindPopup(popup_f87e98eb771c40e1a5a4172f72406ee8)
+        ;
+
+        
+    
+    
+            var marker_3050fa9ecae0405e8b390d5d53c0118c = L.marker(
+                [13.8671581, 100.5190685],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_d5a15c619dc54c75957e13f4bbdd4f26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3050fa9ecae0405e8b390d5d53c0118c.setIcon(icon_d5a15c619dc54c75957e13f4bbdd4f26);
+        
+    
+        var popup_699e353bef484b358d1b1b373ec108c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d379fe6189a4b3a9f1a0325b7ce46b0 = $(`<div id="html_7d379fe6189a4b3a9f1a0325b7ce46b0" style="width: 100.0%; height: 100.0%;"><b>name: </b> images92.jpg<br> <b>LAT: </b> 13.8671581<br> <b>LOG: </b> 100.5190685<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:56:30 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew92.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew92.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_699e353bef484b358d1b1b373ec108c0.setContent(html_7d379fe6189a4b3a9f1a0325b7ce46b0);
+        
+
+        marker_3050fa9ecae0405e8b390d5d53c0118c.bindPopup(popup_699e353bef484b358d1b1b373ec108c0)
+        ;
+
+        
+    
+    
+            var marker_92fa942c313f47bc9ad26e7f25171c49 = L.marker(
+                [13.8605357, 100.5088174],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_4585c4486de74e1ba10781fad9ce2199 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_92fa942c313f47bc9ad26e7f25171c49.setIcon(icon_4585c4486de74e1ba10781fad9ce2199);
+        
+    
+        var popup_9a7b58ba7b72404e9ab6a51398bf91e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b797e8da3364074834d02023fb0c26d = $(`<div id="html_2b797e8da3364074834d02023fb0c26d" style="width: 100.0%; height: 100.0%;"><b>name: </b> images176.jpg<br> <b>LAT: </b> 13.8605357<br> <b>LOG: </b> 100.5088174<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:04:57 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew176.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew176.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_9a7b58ba7b72404e9ab6a51398bf91e6.setContent(html_2b797e8da3364074834d02023fb0c26d);
+        
+
+        marker_92fa942c313f47bc9ad26e7f25171c49.bindPopup(popup_9a7b58ba7b72404e9ab6a51398bf91e6)
+        ;
+
+        
+    
+    
+            var marker_3cbff945f0b1468f848e75d637e52fb1 = L.marker(
+                [13.8799245, 100.5055881],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_a9be8c4ac26b4719b9480ccac5d3bc3d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3cbff945f0b1468f848e75d637e52fb1.setIcon(icon_a9be8c4ac26b4719b9480ccac5d3bc3d);
+        
+    
+        var popup_73fa9e6c1f704582b056367c9feeeb98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8943dc0cede44659b796e38b9bd6e043 = $(`<div id="html_8943dc0cede44659b796e38b9bd6e043" style="width: 100.0%; height: 100.0%;"><b>name: </b> images240.jpg<br> <b>LAT: </b> 13.8799245<br> <b>LOG: </b> 100.5055881<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:13:43 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew240.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew240.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_73fa9e6c1f704582b056367c9feeeb98.setContent(html_8943dc0cede44659b796e38b9bd6e043);
+        
+
+        marker_3cbff945f0b1468f848e75d637e52fb1.bindPopup(popup_73fa9e6c1f704582b056367c9feeeb98)
+        ;
+
+        
+    
+    
+            var marker_a7f30bff11c7451eb1c36360e084482e = L.marker(
+                [13.9072755, 100.5052316],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_014396ae9c8248e4a86b3eca63f6d5bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a7f30bff11c7451eb1c36360e084482e.setIcon(icon_014396ae9c8248e4a86b3eca63f6d5bc);
+        
+    
+        var popup_9d6e982daa8945ffa3588c618d98efdc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ce17121229d454fbcb5c712be7f30e7 = $(`<div id="html_6ce17121229d454fbcb5c712be7f30e7" style="width: 100.0%; height: 100.0%;"><b>name: </b> images48.jpg<br> <b>LAT: </b> 13.9072755<br> <b>LOG: </b> 100.5052316<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:44:10 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew48.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew48.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_9d6e982daa8945ffa3588c618d98efdc.setContent(html_6ce17121229d454fbcb5c712be7f30e7);
+        
+
+        marker_a7f30bff11c7451eb1c36360e084482e.bindPopup(popup_9d6e982daa8945ffa3588c618d98efdc)
+        ;
+
+        
+    
+    
+            var marker_e41b4adc94b3471fb14d7cb7d7cf9dfa = L.marker(
+                [13.8640499, 100.5202312],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_be32525c11204356b65a7789697796b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e41b4adc94b3471fb14d7cb7d7cf9dfa.setIcon(icon_be32525c11204356b65a7789697796b3);
+        
+    
+        var popup_4d09c656b4ee4870ae75900ff988beae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf97874f01c2495e9fffda99d03f2a61 = $(`<div id="html_bf97874f01c2495e9fffda99d03f2a61" style="width: 100.0%; height: 100.0%;"><b>name: </b> images100.jpg<br> <b>LAT: </b> 13.8640499<br> <b>LOG: </b> 100.5202312<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:58:00 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew100.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew100.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_4d09c656b4ee4870ae75900ff988beae.setContent(html_bf97874f01c2495e9fffda99d03f2a61);
+        
+
+        marker_e41b4adc94b3471fb14d7cb7d7cf9dfa.bindPopup(popup_4d09c656b4ee4870ae75900ff988beae)
+        ;
+
+        
+    
+    
+            var marker_44527e08374848a7b456bd3b326f1333 = L.marker(
+                [13.8800545, 100.5050058],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_bda0c85dad7143a3ba897bd3d510089b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_44527e08374848a7b456bd3b326f1333.setIcon(icon_bda0c85dad7143a3ba897bd3d510089b);
+        
+    
+        var popup_1159a56ef43d437d850016692fff03a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca16e6c3c0b4454c976365cd44c64999 = $(`<div id="html_ca16e6c3c0b4454c976365cd44c64999" style="width: 100.0%; height: 100.0%;"><b>name: </b> images236.jpg<br> <b>LAT: </b> 13.8800545<br> <b>LOG: </b> 100.5050058<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:13:35 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew236.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew236.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_1159a56ef43d437d850016692fff03a4.setContent(html_ca16e6c3c0b4454c976365cd44c64999);
+        
+
+        marker_44527e08374848a7b456bd3b326f1333.bindPopup(popup_1159a56ef43d437d850016692fff03a4)
+        ;
+
+        
+    
+    
+            var marker_a4a1b4f3276446148962ad3f20f8f38d = L.marker(
+                [13.8593026, 100.5184809],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_d83e24fe437141f3a448cbfa12078ba5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a4a1b4f3276446148962ad3f20f8f38d.setIcon(icon_d83e24fe437141f3a448cbfa12078ba5);
+        
+    
+        var popup_44e56b8f0d6c44e2ab78a21ccf238616 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_875b83429fff4d70a8ebb7ddd7087a50 = $(`<div id="html_875b83429fff4d70a8ebb7ddd7087a50" style="width: 100.0%; height: 100.0%;"><b>name: </b> images127.jpg<br> <b>LAT: </b> 13.8593026<br> <b>LOG: </b> 100.5184809<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:03:25 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew127.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew127.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_44e56b8f0d6c44e2ab78a21ccf238616.setContent(html_875b83429fff4d70a8ebb7ddd7087a50);
+        
+
+        marker_a4a1b4f3276446148962ad3f20f8f38d.bindPopup(popup_44e56b8f0d6c44e2ab78a21ccf238616)
+        ;
+
+        
+    
+    
+            var marker_baec695554cd43378649cbc2377d98a3 = L.marker(
+                [13.8724796, 100.4957015],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_5a002e2a7afa41409ef8b6f77589d315 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_baec695554cd43378649cbc2377d98a3.setIcon(icon_5a002e2a7afa41409ef8b6f77589d315);
+        
+    
+        var popup_0df88cdcaab54a82bf342900b78588fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33f341720493496fa76a24924a4637d3 = $(`<div id="html_33f341720493496fa76a24924a4637d3" style="width: 100.0%; height: 100.0%;"><b>name: </b> images219.jpg<br> <b>LAT: </b> 13.8724796<br> <b>LOG: </b> 100.4957015<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:09:28 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew219.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew219.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_0df88cdcaab54a82bf342900b78588fe.setContent(html_33f341720493496fa76a24924a4637d3);
+        
+
+        marker_baec695554cd43378649cbc2377d98a3.bindPopup(popup_0df88cdcaab54a82bf342900b78588fe)
+        ;
+
+        
+    
+    
+            var marker_3d023bceed504aa7a1775f3377846250 = L.marker(
+                [13.8604011, 100.5100307],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_8fb3d9f2f6c54925ae5c8e1f7ba8b768 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3d023bceed504aa7a1775f3377846250.setIcon(icon_8fb3d9f2f6c54925ae5c8e1f7ba8b768);
+        
+    
+        var popup_fca96e45fc02426ba3281540e1f2c6cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ec9ff3ec61344009df844b77e86a448 = $(`<div id="html_0ec9ff3ec61344009df844b77e86a448" style="width: 100.0%; height: 100.0%;"><b>name: </b> images171.jpg<br> <b>LAT: </b> 13.8604011<br> <b>LOG: </b> 100.5100307<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:04:43 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew171.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew171.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_fca96e45fc02426ba3281540e1f2c6cc.setContent(html_0ec9ff3ec61344009df844b77e86a448);
+        
+
+        marker_3d023bceed504aa7a1775f3377846250.bindPopup(popup_fca96e45fc02426ba3281540e1f2c6cc)
+        ;
+
+        
+    
+    
+            var marker_ebad28562eac4886ab25440c86aa13ca = L.marker(
+                [13.8604491, 100.5095562],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_3ee0dd2ceb07476fa0843d8d8c94e6e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ebad28562eac4886ab25440c86aa13ca.setIcon(icon_3ee0dd2ceb07476fa0843d8d8c94e6e0);
+        
+    
+        var popup_8422967c768d4280ad1afc9db679b0f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c462ce4340cd4881b9d6841a47cd54cd = $(`<div id="html_c462ce4340cd4881b9d6841a47cd54cd" style="width: 100.0%; height: 100.0%;"><b>name: </b> images174.jpg<br> <b>LAT: </b> 13.8604491<br> <b>LOG: </b> 100.5095562<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:04:47 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew174.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew174.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_8422967c768d4280ad1afc9db679b0f1.setContent(html_c462ce4340cd4881b9d6841a47cd54cd);
+        
+
+        marker_ebad28562eac4886ab25440c86aa13ca.bindPopup(popup_8422967c768d4280ad1afc9db679b0f1)
+        ;
+
+        
+    
+    
+            var marker_1abf5c9afebe4c32ab21b430eb5e1ef3 = L.marker(
+                [13.9066375, 100.5042527],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_db1e78002c1d4d2a9ce9dbbbfe298fd4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1abf5c9afebe4c32ab21b430eb5e1ef3.setIcon(icon_db1e78002c1d4d2a9ce9dbbbfe298fd4);
+        
+    
+        var popup_8ee0cb95e4cd400f83398576f4406e96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8275170312740b18885fb019a9f86f2 = $(`<div id="html_a8275170312740b18885fb019a9f86f2" style="width: 100.0%; height: 100.0%;"><b>name: </b> images57.jpg<br> <b>LAT: </b> 13.9066375<br> <b>LOG: </b> 100.5042527<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:44:28 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew57.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew57.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_8ee0cb95e4cd400f83398576f4406e96.setContent(html_a8275170312740b18885fb019a9f86f2);
+        
+
+        marker_1abf5c9afebe4c32ab21b430eb5e1ef3.bindPopup(popup_8ee0cb95e4cd400f83398576f4406e96)
+        ;
+
+        
+    
+    
+            var marker_ede86f2fa1ee4578902a98744bf42f93 = L.marker(
+                [13.9073378, 100.5046299],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_ae6b8ca617314627bc6f16f757163c55 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ede86f2fa1ee4578902a98744bf42f93.setIcon(icon_ae6b8ca617314627bc6f16f757163c55);
+        
+    
+        var popup_c1937080aad94b71bd85e19f6c11d7e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9007539ecc984988953d2f819362710b = $(`<div id="html_9007539ecc984988953d2f819362710b" style="width: 100.0%; height: 100.0%;"><b>name: </b> images52.jpg<br> <b>LAT: </b> 13.9073378<br> <b>LOG: </b> 100.5046299<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:44:16 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew52.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew52.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_c1937080aad94b71bd85e19f6c11d7e4.setContent(html_9007539ecc984988953d2f819362710b);
+        
+
+        marker_ede86f2fa1ee4578902a98744bf42f93.bindPopup(popup_c1937080aad94b71bd85e19f6c11d7e4)
+        ;
+
+        
+    
+    
+            var marker_0ed45abb0b2544e088c1cdefd449a1d4 = L.marker(
+                [13.8768687, 100.5153517],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_41a7b8a981de4627a94956c971e5866e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0ed45abb0b2544e088c1cdefd449a1d4.setIcon(icon_41a7b8a981de4627a94956c971e5866e);
+        
+    
+        var popup_dbaa486517c2424cac6726fd360f1e14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5af44fadad1840d2b80a994924c7ef02 = $(`<div id="html_5af44fadad1840d2b80a994924c7ef02" style="width: 100.0%; height: 100.0%;"><b>name: </b> images78.jpg<br> <b>LAT: </b> 13.8768687<br> <b>LOG: </b> 100.5153517<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:53:46 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew78.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew78.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_dbaa486517c2424cac6726fd360f1e14.setContent(html_5af44fadad1840d2b80a994924c7ef02);
+        
+
+        marker_0ed45abb0b2544e088c1cdefd449a1d4.bindPopup(popup_dbaa486517c2424cac6726fd360f1e14)
+        ;
+
+        
+    
+    
+            var marker_27d6ecc76c8f461f97faede4a293a04b = L.marker(
+                [13.8594235, 100.5176268],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_08f0ff6aefa94d218ad76a915bc8cfeb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_27d6ecc76c8f461f97faede4a293a04b.setIcon(icon_08f0ff6aefa94d218ad76a915bc8cfeb);
+        
+    
+        var popup_3d7c19dc21fa4b89834b182ed99c97f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3287973d0e34f01a285611ab380418f = $(`<div id="html_c3287973d0e34f01a285611ab380418f" style="width: 100.0%; height: 100.0%;"><b>name: </b> images132.jpg<br> <b>LAT: </b> 13.8594235<br> <b>LOG: </b> 100.5176268<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:03:31 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew132.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew132.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_3d7c19dc21fa4b89834b182ed99c97f1.setContent(html_c3287973d0e34f01a285611ab380418f);
+        
+
+        marker_27d6ecc76c8f461f97faede4a293a04b.bindPopup(popup_3d7c19dc21fa4b89834b182ed99c97f1)
+        ;
+
+        
+    
+    
+            var marker_8257cb45efe34851a6b0990f2d50fa3b = L.marker(
+                [13.8678153, 100.5187919],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_33fc5489434542358659f1c92a6834b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8257cb45efe34851a6b0990f2d50fa3b.setIcon(icon_33fc5489434542358659f1c92a6834b7);
+        
+    
+        var popup_0a2eccff8ae74555a9dbf1fcb2208a96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1352f5d16bec4224b97730b55e0757a3 = $(`<div id="html_1352f5d16bec4224b97730b55e0757a3" style="width: 100.0%; height: 100.0%;"><b>name: </b> images90.jpg<br> <b>LAT: </b> 13.8678153<br> <b>LOG: </b> 100.5187919<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:56:18 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew90.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew90.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_0a2eccff8ae74555a9dbf1fcb2208a96.setContent(html_1352f5d16bec4224b97730b55e0757a3);
+        
+
+        marker_8257cb45efe34851a6b0990f2d50fa3b.bindPopup(popup_0a2eccff8ae74555a9dbf1fcb2208a96)
+        ;
+
+        
+    
+    
+            var marker_7978ebb92ece411bb8a2bf3f4ffc8206 = L.marker(
+                [13.9067402, 100.5114485],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_b512a5cc2a7e41108aecc0145bec510d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7978ebb92ece411bb8a2bf3f4ffc8206.setIcon(icon_b512a5cc2a7e41108aecc0145bec510d);
+        
+    
+        var popup_0d988af89893467ca9d35428e9936269 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b38ca5655bc438e9234d10ccb540491 = $(`<div id="html_0b38ca5655bc438e9234d10ccb540491" style="width: 100.0%; height: 100.0%;"><b>name: </b> images30.jpg<br> <b>LAT: </b> 13.9067402<br> <b>LOG: </b> 100.5114485<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:43:14 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew30.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew30.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_0d988af89893467ca9d35428e9936269.setContent(html_0b38ca5655bc438e9234d10ccb540491);
+        
+
+        marker_7978ebb92ece411bb8a2bf3f4ffc8206.bindPopup(popup_0d988af89893467ca9d35428e9936269)
+        ;
+
+        
+    
+    
+            var marker_0764967b53b54707b667610d1406fdcc = L.marker(
+                [13.8653513, 100.4948841],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_f0907f580afc41cea47c67a501710eb6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0764967b53b54707b667610d1406fdcc.setIcon(icon_f0907f580afc41cea47c67a501710eb6);
+        
+    
+        var popup_f6acab491f2344b1a24a47c9b3209fe8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f78d48e611f4b8ba365572ba76b4640 = $(`<div id="html_4f78d48e611f4b8ba365572ba76b4640" style="width: 100.0%; height: 100.0%;"><b>name: </b> images202.jpg<br> <b>LAT: </b> 13.8653513<br> <b>LOG: </b> 100.4948841<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:06:46 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew202.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew202.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_f6acab491f2344b1a24a47c9b3209fe8.setContent(html_4f78d48e611f4b8ba365572ba76b4640);
+        
+
+        marker_0764967b53b54707b667610d1406fdcc.bindPopup(popup_f6acab491f2344b1a24a47c9b3209fe8)
+        ;
+
+        
+    
+    
+            var marker_9edf8532dfc34cc3b55b1aec0a22578d = L.marker(
+                [13.9070018, 100.5083277],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_50d456d33e7e45268a92c57ce5d4e1eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9edf8532dfc34cc3b55b1aec0a22578d.setIcon(icon_50d456d33e7e45268a92c57ce5d4e1eb);
+        
+    
+        var popup_d7b5808a7e854c7db8a0e9748f6210de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04209a572cef45e8b1be6eb2a0836dab = $(`<div id="html_04209a572cef45e8b1be6eb2a0836dab" style="width: 100.0%; height: 100.0%;"><b>name: </b> images37.jpg<br> <b>LAT: </b> 13.9070018<br> <b>LOG: </b> 100.5083277<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:43:40 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew37.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew37.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_d7b5808a7e854c7db8a0e9748f6210de.setContent(html_04209a572cef45e8b1be6eb2a0836dab);
+        
+
+        marker_9edf8532dfc34cc3b55b1aec0a22578d.bindPopup(popup_d7b5808a7e854c7db8a0e9748f6210de)
+        ;
+
+        
+    
+    
+            var marker_c6267a4272ef4dafb576fdfca8729920 = L.marker(
+                [13.8603819, 100.5103025],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_0ebfff5dd45c4a6c8c323678abe9d97e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c6267a4272ef4dafb576fdfca8729920.setIcon(icon_0ebfff5dd45c4a6c8c323678abe9d97e);
+        
+    
+        var popup_faaaa9f7c97246f98af8620c2eadd47b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16b83f8b30344377b32637e97360e50e = $(`<div id="html_16b83f8b30344377b32637e97360e50e" style="width: 100.0%; height: 100.0%;"><b>name: </b> images169.jpg<br> <b>LAT: </b> 13.8603819<br> <b>LOG: </b> 100.5103025<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:04:41 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew169.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew169.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_faaaa9f7c97246f98af8620c2eadd47b.setContent(html_16b83f8b30344377b32637e97360e50e);
+        
+
+        marker_c6267a4272ef4dafb576fdfca8729920.bindPopup(popup_faaaa9f7c97246f98af8620c2eadd47b)
+        ;
+
+        
+    
+    
+            var marker_80c8193439b5423c8be272bd9c93d8e2 = L.marker(
+                [13.8598232, 100.5143899],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_b1ff2084bea3413dabc51165abdbb3a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_80c8193439b5423c8be272bd9c93d8e2.setIcon(icon_b1ff2084bea3413dabc51165abdbb3a5);
+        
+    
+        var popup_ac2e740c9b0e450f93dc423c1bfdee41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_adb358890c9448efb481f903a4f876e7 = $(`<div id="html_adb358890c9448efb481f903a4f876e7" style="width: 100.0%; height: 100.0%;"><b>name: </b> images151.jpg<br> <b>LAT: </b> 13.8598232<br> <b>LOG: </b> 100.5143899<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:04:01 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew151.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew151.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_ac2e740c9b0e450f93dc423c1bfdee41.setContent(html_adb358890c9448efb481f903a4f876e7);
+        
+
+        marker_80c8193439b5423c8be272bd9c93d8e2.bindPopup(popup_ac2e740c9b0e450f93dc423c1bfdee41)
+        ;
+
+        
+    
+    
+            var marker_38c3986db4de4b77a93a77089e539c5d = L.marker(
+                [13.8798466, 100.5059559],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_0e37156446224c1b92b8318268939514 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_38c3986db4de4b77a93a77089e539c5d.setIcon(icon_0e37156446224c1b92b8318268939514);
+        
+    
+        var popup_5f501c7062d54b4eb12578ecf502884c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c59fec74ffee4e0194fd39496ae51671 = $(`<div id="html_c59fec74ffee4e0194fd39496ae51671" style="width: 100.0%; height: 100.0%;"><b>name: </b> images243.jpg<br> <b>LAT: </b> 13.8798466<br> <b>LOG: </b> 100.5059559<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:13:47 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew243.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew243.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_5f501c7062d54b4eb12578ecf502884c.setContent(html_c59fec74ffee4e0194fd39496ae51671);
+        
+
+        marker_38c3986db4de4b77a93a77089e539c5d.bindPopup(popup_5f501c7062d54b4eb12578ecf502884c)
+        ;
+
+        
+    
+    
+            var marker_4ba09b3e8e4a4fef8dc82dd78b860022 = L.marker(
+                [13.907129, 100.5066173],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_546876c0d0464262bd396f2f0e51c080 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4ba09b3e8e4a4fef8dc82dd78b860022.setIcon(icon_546876c0d0464262bd396f2f0e51c080);
+        
+    
+        var popup_99875211668c4195bcc54a0ca3fb2cee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73165abac1a54cd2948660e3271ceb27 = $(`<div id="html_73165abac1a54cd2948660e3271ceb27" style="width: 100.0%; height: 100.0%;"><b>name: </b> images43.jpg<br> <b>LAT: </b> 13.907129<br> <b>LOG: </b> 100.5066173<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:43:56 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew43.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew43.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_99875211668c4195bcc54a0ca3fb2cee.setContent(html_73165abac1a54cd2948660e3271ceb27);
+        
+
+        marker_4ba09b3e8e4a4fef8dc82dd78b860022.bindPopup(popup_99875211668c4195bcc54a0ca3fb2cee)
+        ;
+
+        
+    
+    
+            var marker_92dfebb81b1b4f24baa395b8dd93e7c0 = L.marker(
+                [13.8599642, 100.5132475],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_da21534b370442a1ba3e74d4974d65b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_92dfebb81b1b4f24baa395b8dd93e7c0.setIcon(icon_da21534b370442a1ba3e74d4974d65b2);
+        
+    
+        var popup_6b283291cb9e4e71948e6e7fd46ebfd6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_615da2ac6d0a46cc88bdcfd53ea5572b = $(`<div id="html_615da2ac6d0a46cc88bdcfd53ea5572b" style="width: 100.0%; height: 100.0%;"><b>name: </b> images156.jpg<br> <b>LAT: </b> 13.8599642<br> <b>LOG: </b> 100.5132475<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:04:17 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew156.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew156.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_6b283291cb9e4e71948e6e7fd46ebfd6.setContent(html_615da2ac6d0a46cc88bdcfd53ea5572b);
+        
+
+        marker_92dfebb81b1b4f24baa395b8dd93e7c0.bindPopup(popup_6b283291cb9e4e71948e6e7fd46ebfd6)
+        ;
+
+        
+    
+    
+            var marker_b996dd3c4d2e47799bbd7d4cc12b325b = L.marker(
+                [13.9069643, 100.5091128],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_5eb4b66eda5d403f88da1d85bb4d1573 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b996dd3c4d2e47799bbd7d4cc12b325b.setIcon(icon_5eb4b66eda5d403f88da1d85bb4d1573);
+        
+    
+        var popup_22ae9fa8601b428a84787a2548e31af0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4294577aa8724b438803344568c078e6 = $(`<div id="html_4294577aa8724b438803344568c078e6" style="width: 100.0%; height: 100.0%;"><b>name: </b> images34.jpg<br> <b>LAT: </b> 13.9069643<br> <b>LOG: </b> 100.5091128<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:43:34 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew34.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew34.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_22ae9fa8601b428a84787a2548e31af0.setContent(html_4294577aa8724b438803344568c078e6);
+        
+
+        marker_b996dd3c4d2e47799bbd7d4cc12b325b.bindPopup(popup_22ae9fa8601b428a84787a2548e31af0)
+        ;
+
+        
+    
+    
+            var marker_eade70b667a54ec28a485e781dae9d3b = L.marker(
+                [13.8628875, 100.5002621],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_e599e4f1f362477d80ae9352e1008e65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_eade70b667a54ec28a485e781dae9d3b.setIcon(icon_e599e4f1f362477d80ae9352e1008e65);
+        
+    
+        var popup_2679eb54286d46eb9e47897de66ebdf4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_131bcf976c5f403f84531be9bbec9afc = $(`<div id="html_131bcf976c5f403f84531be9bbec9afc" style="width: 100.0%; height: 100.0%;"><b>name: </b> images193.jpg<br> <b>LAT: </b> 13.8628875<br> <b>LOG: </b> 100.5002621<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:06:10 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew193.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew193.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_2679eb54286d46eb9e47897de66ebdf4.setContent(html_131bcf976c5f403f84531be9bbec9afc);
+        
+
+        marker_eade70b667a54ec28a485e781dae9d3b.bindPopup(popup_2679eb54286d46eb9e47897de66ebdf4)
+        ;
+
+        
+    
+    
+            var marker_c314801638004fcc9956c7bac640be02 = L.marker(
+                [13.9070082, 100.5080934],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_8f85d552fd6447cb8a34f82530d85c7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c314801638004fcc9956c7bac640be02.setIcon(icon_8f85d552fd6447cb8a34f82530d85c7f);
+        
+    
+        var popup_c643b1c64ce640d28e2bc51ebf3bce60 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f879eccebb7e4f92a211b7d030ca8a1d = $(`<div id="html_f879eccebb7e4f92a211b7d030ca8a1d" style="width: 100.0%; height: 100.0%;"><b>name: </b> images38.jpg<br> <b>LAT: </b> 13.9070082<br> <b>LOG: </b> 100.5080934<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:43:42 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew38.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew38.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_c643b1c64ce640d28e2bc51ebf3bce60.setContent(html_f879eccebb7e4f92a211b7d030ca8a1d);
+        
+
+        marker_c314801638004fcc9956c7bac640be02.bindPopup(popup_c643b1c64ce640d28e2bc51ebf3bce60)
+        ;
+
+        
+    
+    
+            var marker_7db9a89fcc484964aa48d0bb27c830b5 = L.marker(
+                [13.9071514, 100.5062712],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_b2971003b96a4e7aaa0f5e1aafb5fe8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7db9a89fcc484964aa48d0bb27c830b5.setIcon(icon_b2971003b96a4e7aaa0f5e1aafb5fe8f);
+        
+    
+        var popup_1b78457c4ac8460b87cf94832404195c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_555b11a9aa8043ebb0c395c3bc6dd7f1 = $(`<div id="html_555b11a9aa8043ebb0c395c3bc6dd7f1" style="width: 100.0%; height: 100.0%;"><b>name: </b> images46.jpg<br> <b>LAT: </b> 13.9071514<br> <b>LOG: </b> 100.5062712<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:44:00 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew46.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew46.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_1b78457c4ac8460b87cf94832404195c.setContent(html_555b11a9aa8043ebb0c395c3bc6dd7f1);
+        
+
+        marker_7db9a89fcc484964aa48d0bb27c830b5.bindPopup(popup_1b78457c4ac8460b87cf94832404195c)
+        ;
+
+        
+    
+    
+            var marker_2c9c66b587b44345b2ab89a3c787963b = L.marker(
+                [13.8593376, 100.5181899],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_34e9db1555834a40a4da25c46a85e05d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2c9c66b587b44345b2ab89a3c787963b.setIcon(icon_34e9db1555834a40a4da25c46a85e05d);
+        
+    
+        var popup_02f29313e0dd45b886f519353a964636 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab1943f343474602883617fda284c926 = $(`<div id="html_ab1943f343474602883617fda284c926" style="width: 100.0%; height: 100.0%;"><b>name: </b> images128.jpg<br> <b>LAT: </b> 13.8593376<br> <b>LOG: </b> 100.5181899<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:03:27 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew128.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew128.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_02f29313e0dd45b886f519353a964636.setContent(html_ab1943f343474602883617fda284c926);
+        
+
+        marker_2c9c66b587b44345b2ab89a3c787963b.bindPopup(popup_02f29313e0dd45b886f519353a964636)
+        ;
+
+        
+    
+    
+            var marker_8c0457a3604242eeae2ee9d472da5f81 = L.marker(
+                [13.8608185, 100.5074107],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_6b16a6b1fe6e4b3f8e305239bd9918a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8c0457a3604242eeae2ee9d472da5f81.setIcon(icon_6b16a6b1fe6e4b3f8e305239bd9918a6);
+        
+    
+        var popup_68edf744b5974aefadd401fab50b4ca6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_371ccecec3b64529a2352083655c8a0d = $(`<div id="html_371ccecec3b64529a2352083655c8a0d" style="width: 100.0%; height: 100.0%;"><b>name: </b> images182.jpg<br> <b>LAT: </b> 13.8608185<br> <b>LOG: </b> 100.5074107<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:05:11 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew182.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew182.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_68edf744b5974aefadd401fab50b4ca6.setContent(html_371ccecec3b64529a2352083655c8a0d);
+        
+
+        marker_8c0457a3604242eeae2ee9d472da5f81.bindPopup(popup_68edf744b5974aefadd401fab50b4ca6)
+        ;
+
+        
+    
+    
+            var marker_8c619588989449a98a161341a89a63df = L.marker(
+                [13.8916124, 100.5097577],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_496c2696e9cb4f238839a46b8586d9ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8c619588989449a98a161341a89a63df.setIcon(icon_496c2696e9cb4f238839a46b8586d9ce);
+        
+    
+        var popup_a72ea578e21f4f20acc017eae8b3d265 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4056e186147e4733a3767752b52f78cd = $(`<div id="html_4056e186147e4733a3767752b52f78cd" style="width: 100.0%; height: 100.0%;"><b>name: </b> images68.jpg<br> <b>LAT: </b> 13.8916124<br> <b>LOG: </b> 100.5097577<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:47:22 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew68.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew68.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_a72ea578e21f4f20acc017eae8b3d265.setContent(html_4056e186147e4733a3767752b52f78cd);
+        
+
+        marker_8c619588989449a98a161341a89a63df.bindPopup(popup_a72ea578e21f4f20acc017eae8b3d265)
+        ;
+
+        
+    
+    
+            var marker_9f30836b4ff74269b39021de26600cdf = L.marker(
+                [13.8593775, 100.5179048],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_fe96ad09c46c4cf8b39e12928cffe2d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9f30836b4ff74269b39021de26600cdf.setIcon(icon_fe96ad09c46c4cf8b39e12928cffe2d6);
+        
+    
+        var popup_18768e66f1df46c2895788c3f48cf3f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4d26651bca14a259e0c351d499e4835 = $(`<div id="html_d4d26651bca14a259e0c351d499e4835" style="width: 100.0%; height: 100.0%;"><b>name: </b> images130.jpg<br> <b>LAT: </b> 13.8593775<br> <b>LOG: </b> 100.5179048<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:03:29 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew130.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew130.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_18768e66f1df46c2895788c3f48cf3f7.setContent(html_d4d26651bca14a259e0c351d499e4835);
+        
+
+        marker_9f30836b4ff74269b39021de26600cdf.bindPopup(popup_18768e66f1df46c2895788c3f48cf3f7)
+        ;
+
+        
+    
+    
+            var marker_a6a77c4d839d49688be57818a64d5333 = L.marker(
+                [13.8599959, 100.5130605],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_c4992c752dc84f7bb1930fb3e85127b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a6a77c4d839d49688be57818a64d5333.setIcon(icon_c4992c752dc84f7bb1930fb3e85127b9);
+        
+    
+        var popup_7431b5593d354f4fb79fdaf22638f7b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2735ec554d5a42c2b2f75fbcf4cf4ee0 = $(`<div id="html_2735ec554d5a42c2b2f75fbcf4cf4ee0" style="width: 100.0%; height: 100.0%;"><b>name: </b> images158.jpg<br> <b>LAT: </b> 13.8599959<br> <b>LOG: </b> 100.5130605<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:04:19 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew158.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew158.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_7431b5593d354f4fb79fdaf22638f7b2.setContent(html_2735ec554d5a42c2b2f75fbcf4cf4ee0);
+        
+
+        marker_a6a77c4d839d49688be57818a64d5333.bindPopup(popup_7431b5593d354f4fb79fdaf22638f7b2)
+        ;
+
+        
+    
+    
+            var marker_f846166538ef4f7c9e56f4e6bcbd2d05 = L.marker(
+                [13.8965994, 100.5079558],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_8952b0e3c7814a0697a2dbfe4d026e7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f846166538ef4f7c9e56f4e6bcbd2d05.setIcon(icon_8952b0e3c7814a0697a2dbfe4d026e7e);
+        
+    
+        var popup_c5b0a6605c29428dacdc2a5d966bee56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8aeaa30361cb43cfaac0f505e959b926 = $(`<div id="html_8aeaa30361cb43cfaac0f505e959b926" style="width: 100.0%; height: 100.0%;"><b>name: </b> images64.jpg<br> <b>LAT: </b> 13.8965994<br> <b>LOG: </b> 100.5079558<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:46:35 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew64.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew64.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_c5b0a6605c29428dacdc2a5d966bee56.setContent(html_8aeaa30361cb43cfaac0f505e959b926);
+        
+
+        marker_f846166538ef4f7c9e56f4e6bcbd2d05.bindPopup(popup_c5b0a6605c29428dacdc2a5d966bee56)
+        ;
+
+        
+    
+    
+            var marker_f6853b6e200c46aca7ad8c69c0d5b16a = L.marker(
+                [13.8800914, 100.5048336],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_f48415fedf924449be2d630760a2de3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f6853b6e200c46aca7ad8c69c0d5b16a.setIcon(icon_f48415fedf924449be2d630760a2de3c);
+        
+    
+        var popup_c65842161923499394cdca085cab02d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e75bebbb5f74ade973ff8e358c5d658 = $(`<div id="html_9e75bebbb5f74ade973ff8e358c5d658" style="width: 100.0%; height: 100.0%;"><b>name: </b> images235.jpg<br> <b>LAT: </b> 13.8800914<br> <b>LOG: </b> 100.5048336<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:13:33 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew235.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew235.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_c65842161923499394cdca085cab02d5.setContent(html_9e75bebbb5f74ade973ff8e358c5d658);
+        
+
+        marker_f6853b6e200c46aca7ad8c69c0d5b16a.bindPopup(popup_c65842161923499394cdca085cab02d5)
+        ;
+
+        
+    
+    
+            var marker_ced5e3b401c3470fa3a0ccbae987c2f2 = L.marker(
+                [13.9073327, 100.5047975],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_7b0556f7a46d470da2faf1ac1a32504f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ced5e3b401c3470fa3a0ccbae987c2f2.setIcon(icon_7b0556f7a46d470da2faf1ac1a32504f);
+        
+    
+        var popup_e0c1e2bedf3e47e7a8ee12708ff23ba4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d44c82e44ac941a3b92edcef9cd31011 = $(`<div id="html_d44c82e44ac941a3b92edcef9cd31011" style="width: 100.0%; height: 100.0%;"><b>name: </b> images50.jpg<br> <b>LAT: </b> 13.9073327<br> <b>LOG: </b> 100.5047975<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:44:14 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew50.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew50.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_e0c1e2bedf3e47e7a8ee12708ff23ba4.setContent(html_d44c82e44ac941a3b92edcef9cd31011);
+        
+
+        marker_ced5e3b401c3470fa3a0ccbae987c2f2.bindPopup(popup_e0c1e2bedf3e47e7a8ee12708ff23ba4)
+        ;
+
+        
+    
+    
+            var marker_aeb22ca16ec54c4fb906e7481c898f4f = L.marker(
+                [13.8591658, 100.5196242],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_00616098e79a45edb5192d1eebbfcd73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_aeb22ca16ec54c4fb906e7481c898f4f.setIcon(icon_00616098e79a45edb5192d1eebbfcd73);
+        
+    
+        var popup_27c6ca6d9c85495c8bbd7c8d0f0783ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88985b8d38b04e4e88e8106dfd4359ce = $(`<div id="html_88985b8d38b04e4e88e8106dfd4359ce" style="width: 100.0%; height: 100.0%;"><b>name: </b> images123.jpg<br> <b>LAT: </b> 13.8591658<br> <b>LOG: </b> 100.5196242<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:03:17 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew123.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew123.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_27c6ca6d9c85495c8bbd7c8d0f0783ca.setContent(html_88985b8d38b04e4e88e8106dfd4359ce);
+        
+
+        marker_aeb22ca16ec54c4fb906e7481c898f4f.bindPopup(popup_27c6ca6d9c85495c8bbd7c8d0f0783ca)
+        ;
+
+        
+    
+    
+            var marker_99b0ae56d8ef4bbeab46f7191bf3d5cd = L.marker(
+                [13.87976, 100.5063309],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_85cad32c68514e7eba76a4f83ee9b4c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_99b0ae56d8ef4bbeab46f7191bf3d5cd.setIcon(icon_85cad32c68514e7eba76a4f83ee9b4c4);
+        
+    
+        var popup_d97c5f4c6191479aa96ba0f36ef876f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9db76491911541a5b5d45a7eeac608bf = $(`<div id="html_9db76491911541a5b5d45a7eeac608bf" style="width: 100.0%; height: 100.0%;"><b>name: </b> images244.jpg<br> <b>LAT: </b> 13.87976<br> <b>LOG: </b> 100.5063309<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:13:51 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew244.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew244.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_d97c5f4c6191479aa96ba0f36ef876f2.setContent(html_9db76491911541a5b5d45a7eeac608bf);
+        
+
+        marker_99b0ae56d8ef4bbeab46f7191bf3d5cd.bindPopup(popup_d97c5f4c6191479aa96ba0f36ef876f2)
+        ;
+
+        
+    
+    
+            var marker_c837784c050745be91e181c99ff6bb44 = L.marker(
+                [13.8611324, 100.5060737],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_e9a4487f5b154f96be89334c58538d5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c837784c050745be91e181c99ff6bb44.setIcon(icon_e9a4487f5b154f96be89334c58538d5b);
+        
+    
+        var popup_5b3f52575ad646ee8e1150a2d19680c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_616dad01cd06475083bbb52a33e33612 = $(`<div id="html_616dad01cd06475083bbb52a33e33612" style="width: 100.0%; height: 100.0%;"><b>name: </b> images187.jpg<br> <b>LAT: </b> 13.8611324<br> <b>LOG: </b> 100.5060737<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:05:24 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew187.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew187.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_5b3f52575ad646ee8e1150a2d19680c3.setContent(html_616dad01cd06475083bbb52a33e33612);
+        
+
+        marker_c837784c050745be91e181c99ff6bb44.bindPopup(popup_5b3f52575ad646ee8e1150a2d19680c3)
+        ;
+
+        
+    
+    
+            var marker_c46f3362d8a043c2a63cdfda0d0f9b39 = L.marker(
+                [13.8603114, 100.5108555],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_99a90c168d764fb881be59ae528f9baf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c46f3362d8a043c2a63cdfda0d0f9b39.setIcon(icon_99a90c168d764fb881be59ae528f9baf);
+        
+    
+        var popup_3f1fa8fed27b4b2f9d5654cddfbaef09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5ba2adb52e048d6a619ebb0c2456f6a = $(`<div id="html_b5ba2adb52e048d6a619ebb0c2456f6a" style="width: 100.0%; height: 100.0%;"><b>name: </b> images165.jpg<br> <b>LAT: </b> 13.8603114<br> <b>LOG: </b> 100.5108555<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:04:37 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew165.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew165.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_3f1fa8fed27b4b2f9d5654cddfbaef09.setContent(html_b5ba2adb52e048d6a619ebb0c2456f6a);
+        
+
+        marker_c46f3362d8a043c2a63cdfda0d0f9b39.bindPopup(popup_3f1fa8fed27b4b2f9d5654cddfbaef09)
+        ;
+
+        
+    
+    
+            var marker_d2b6758949864936bd466547a5870df6 = L.marker(
+                [13.8597455, 100.5151469],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_2fd5974dd55f44f6a3de4c3532b66309 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d2b6758949864936bd466547a5870df6.setIcon(icon_2fd5974dd55f44f6a3de4c3532b66309);
+        
+    
+        var popup_3f35f44423854f569d3fd5401cb9b27d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7421975264284df78ad2ededba45a747 = $(`<div id="html_7421975264284df78ad2ededba45a747" style="width: 100.0%; height: 100.0%;"><b>name: </b> images144.jpg<br> <b>LAT: </b> 13.8597455<br> <b>LOG: </b> 100.5151469<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:03:53 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew144.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew144.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_3f35f44423854f569d3fd5401cb9b27d.setContent(html_7421975264284df78ad2ededba45a747);
+        
+
+        marker_d2b6758949864936bd466547a5870df6.bindPopup(popup_3f35f44423854f569d3fd5401cb9b27d)
+        ;
+
+        
+    
+    
+            var marker_7a2b499b04c84512bd084dc5612a252e = L.marker(
+                [13.8595883, 100.5165591],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_e85090e7b6224f03bf03a4aa065b47c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7a2b499b04c84512bd084dc5612a252e.setIcon(icon_e85090e7b6224f03bf03a4aa065b47c3);
+        
+    
+        var popup_c446e0eb5cf1461bbe97b06494c6cd45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89298741e0394f47ac628b55f2db0fde = $(`<div id="html_89298741e0394f47ac628b55f2db0fde" style="width: 100.0%; height: 100.0%;"><b>name: </b> images139.jpg<br> <b>LAT: </b> 13.8595883<br> <b>LOG: </b> 100.5165591<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:03:41 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew139.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew139.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_c446e0eb5cf1461bbe97b06494c6cd45.setContent(html_89298741e0394f47ac628b55f2db0fde);
+        
+
+        marker_7a2b499b04c84512bd084dc5612a252e.bindPopup(popup_c446e0eb5cf1461bbe97b06494c6cd45)
+        ;
+
+        
+    
+    
+            var marker_306aa4414acc4d74adb0475819d56aca = L.marker(
+                [13.9069928, 100.5085734],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_7bb64bcd9f8c4c6ab43d799885ceb78d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_306aa4414acc4d74adb0475819d56aca.setIcon(icon_7bb64bcd9f8c4c6ab43d799885ceb78d);
+        
+    
+        var popup_2180f952806c4a76bd6d0f59c0260316 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf5c36e5ac7740418701a3a715340a8f = $(`<div id="html_cf5c36e5ac7740418701a3a715340a8f" style="width: 100.0%; height: 100.0%;"><b>name: </b> images36.jpg<br> <b>LAT: </b> 13.9069928<br> <b>LOG: </b> 100.5085734<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:43:38 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew36.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew36.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_2180f952806c4a76bd6d0f59c0260316.setContent(html_cf5c36e5ac7740418701a3a715340a8f);
+        
+
+        marker_306aa4414acc4d74adb0475819d56aca.bindPopup(popup_2180f952806c4a76bd6d0f59c0260316)
+        ;
+
+        
+    
+    
+            var marker_41e734432a7e4ef1b6edea1950470b17 = L.marker(
+                [13.8635069, 100.5204141],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_c2051f8c3753410e82afcab2acde4b67 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_41e734432a7e4ef1b6edea1950470b17.setIcon(icon_c2051f8c3753410e82afcab2acde4b67);
+        
+    
+        var popup_19f21b3c293d42f58345a2ac9a740182 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c27845d26a8741bc9cc00ad002524b33 = $(`<div id="html_c27845d26a8741bc9cc00ad002524b33" style="width: 100.0%; height: 100.0%;"><b>name: </b> images111.jpg<br> <b>LAT: </b> 13.8635069<br> <b>LOG: </b> 100.5204141<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:58:38 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew111.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew111.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_19f21b3c293d42f58345a2ac9a740182.setContent(html_c27845d26a8741bc9cc00ad002524b33);
+        
+
+        marker_41e734432a7e4ef1b6edea1950470b17.bindPopup(popup_19f21b3c293d42f58345a2ac9a740182)
+        ;
+
+        
+    
+    
+            var marker_14d59fc7670a4141baa87faaa76c2116 = L.marker(
+                [13.8591974, 100.5193271],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_968f3b8b3be54636a1438f921e066d63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_14d59fc7670a4141baa87faaa76c2116.setIcon(icon_968f3b8b3be54636a1438f921e066d63);
+        
+    
+        var popup_8bb78c7de7004c5682532851e691e524 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f09f738b8d6c4e29a639ba0eb4c4a8de = $(`<div id="html_f09f738b8d6c4e29a639ba0eb4c4a8de" style="width: 100.0%; height: 100.0%;"><b>name: </b> images125.jpg<br> <b>LAT: </b> 13.8591974<br> <b>LOG: </b> 100.5193271<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:03:19 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew125.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew125.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_8bb78c7de7004c5682532851e691e524.setContent(html_f09f738b8d6c4e29a639ba0eb4c4a8de);
+        
+
+        marker_14d59fc7670a4141baa87faaa76c2116.bindPopup(popup_8bb78c7de7004c5682532851e691e524)
+        ;
+
+        
+    
+    
+            var marker_e80bb699c3b44661a66b91092041bd57 = L.marker(
+                [13.8609509, 100.5068081],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_4181561d7a4e4c9082c2bace9fe81f08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e80bb699c3b44661a66b91092041bd57.setIcon(icon_4181561d7a4e4c9082c2bace9fe81f08);
+        
+    
+        var popup_dd79fb4a58564d619072f1cdcdff81db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e82f949f58d1461696342e95064b4d02 = $(`<div id="html_e82f949f58d1461696342e95064b4d02" style="width: 100.0%; height: 100.0%;"><b>name: </b> images184.jpg<br> <b>LAT: </b> 13.8609509<br> <b>LOG: </b> 100.5068081<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:05:17 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew184.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew184.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_dd79fb4a58564d619072f1cdcdff81db.setContent(html_e82f949f58d1461696342e95064b4d02);
+        
+
+        marker_e80bb699c3b44661a66b91092041bd57.bindPopup(popup_dd79fb4a58564d619072f1cdcdff81db)
+        ;
+
+        
+    
+    
+            var marker_1c73a448c66146419ae8b19f1d796d89 = L.marker(
+                [13.8965009, 100.5079967],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_2edd0f6bee6e4607980b8075d18e01f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1c73a448c66146419ae8b19f1d796d89.setIcon(icon_2edd0f6bee6e4607980b8075d18e01f6);
+        
+    
+        var popup_0d9d2ef32fd64854bec09dc75c398a6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61331d7e362b4e2894dfc908263e3613 = $(`<div id="html_61331d7e362b4e2894dfc908263e3613" style="width: 100.0%; height: 100.0%;"><b>name: </b> images65.jpg<br> <b>LAT: </b> 13.8965009<br> <b>LOG: </b> 100.5079967<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:46:39 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew65.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew65.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_0d9d2ef32fd64854bec09dc75c398a6a.setContent(html_61331d7e362b4e2894dfc908263e3613);
+        
+
+        marker_1c73a448c66146419ae8b19f1d796d89.bindPopup(popup_0d9d2ef32fd64854bec09dc75c398a6a)
+        ;
+
+        
+    
+    
+            var marker_6159b1446f7545718102c261da8f6730 = L.marker(
+                [13.8796821, 100.5066928],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_a9360350dd5c40868f86dd98b90392e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6159b1446f7545718102c261da8f6730.setIcon(icon_a9360350dd5c40868f86dd98b90392e8);
+        
+    
+        var popup_471bfd33fc424749a51ca5d117bf55d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f72dd5f078a4e3eb76cf218cc038006 = $(`<div id="html_9f72dd5f078a4e3eb76cf218cc038006" style="width: 100.0%; height: 100.0%;"><b>name: </b> images248.jpg<br> <b>LAT: </b> 13.8796821<br> <b>LOG: </b> 100.5066928<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:13:55 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew248.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew248.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_471bfd33fc424749a51ca5d117bf55d6.setContent(html_9f72dd5f078a4e3eb76cf218cc038006);
+        
+
+        marker_6159b1446f7545718102c261da8f6730.bindPopup(popup_471bfd33fc424749a51ca5d117bf55d6)
+        ;
+
+        
+    
+    
+            var marker_9569e7c39b074ceaac6095138e1d8088 = L.marker(
+                [13.8809975, 100.4962055],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_2dcdc22bad2e4564862e6c935df1aa8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9569e7c39b074ceaac6095138e1d8088.setIcon(icon_2dcdc22bad2e4564862e6c935df1aa8f);
+        
+    
+        var popup_6610fc4f19464b6394c70b088171aae3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c3f9a106ea94249a73dbc2e4caf1ea3 = $(`<div id="html_9c3f9a106ea94249a73dbc2e4caf1ea3" style="width: 100.0%; height: 100.0%;"><b>name: </b> images226.jpg<br> <b>LAT: </b> 13.8809975<br> <b>LOG: </b> 100.4962055<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:11:01 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew226.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew226.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_6610fc4f19464b6394c70b088171aae3.setContent(html_9c3f9a106ea94249a73dbc2e4caf1ea3);
+        
+
+        marker_9569e7c39b074ceaac6095138e1d8088.bindPopup(popup_6610fc4f19464b6394c70b088171aae3)
+        ;
+
+        
+    
+    
+            var marker_9ecc0e74c2b742fdb079348739fa386c = L.marker(
+                [13.9059708, 100.5198521],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_3f75f5e86718402c835727addadd22a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9ecc0e74c2b742fdb079348739fa386c.setIcon(icon_3f75f5e86718402c835727addadd22a1);
+        
+    
+        var popup_6587f2305765438f9ca5626a819f7008 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38f5ffcde7b348aaad0eddb7b118d4e3 = $(`<div id="html_38f5ffcde7b348aaad0eddb7b118d4e3" style="width: 100.0%; height: 100.0%;"><b>name: </b> images12.jpg<br> <b>LAT: </b> 13.9059708<br> <b>LOG: </b> 100.5198521<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:41:24 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew12.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew12.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_6587f2305765438f9ca5626a819f7008.setContent(html_38f5ffcde7b348aaad0eddb7b118d4e3);
+        
+
+        marker_9ecc0e74c2b742fdb079348739fa386c.bindPopup(popup_6587f2305765438f9ca5626a819f7008)
+        ;
+
+        
+    
+    
+            var marker_3eefa8422dd941afb2e8bb6284d26f7e = L.marker(
+                [13.861359, 100.5050839],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_b10b9141cc5a4125b2fd6a3f8badcfe5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3eefa8422dd941afb2e8bb6284d26f7e.setIcon(icon_b10b9141cc5a4125b2fd6a3f8badcfe5);
+        
+    
+        var popup_fd0075fe972a44e4b27c107b94f56665 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d5d577660f6419a81571a8b36c78a65 = $(`<div id="html_2d5d577660f6419a81571a8b36c78a65" style="width: 100.0%; height: 100.0%;"><b>name: </b> images188.jpg<br> <b>LAT: </b> 13.861359<br> <b>LOG: </b> 100.5050839<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:05:32 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew188.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew188.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_fd0075fe972a44e4b27c107b94f56665.setContent(html_2d5d577660f6419a81571a8b36c78a65);
+        
+
+        marker_3eefa8422dd941afb2e8bb6284d26f7e.bindPopup(popup_fd0075fe972a44e4b27c107b94f56665)
+        ;
+
+        
+    
+    
+            var marker_87ea458a9fec4c978273f909c1031ecf = L.marker(
+                [13.8591658, 100.5196242],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_fbac65abd2f34380b0c6c5c8fa3a01fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_87ea458a9fec4c978273f909c1031ecf.setIcon(icon_fbac65abd2f34380b0c6c5c8fa3a01fd);
+        
+    
+        var popup_126feb3dff4c412bb793224a022f8fb2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61616e3b6bc44c63b0c5bf98bb58eb88 = $(`<div id="html_61616e3b6bc44c63b0c5bf98bb58eb88" style="width: 100.0%; height: 100.0%;"><b>name: </b> images124.jpg<br> <b>LAT: </b> 13.8591658<br> <b>LOG: </b> 100.5196242<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:03:17 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew124.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew124.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_126feb3dff4c412bb793224a022f8fb2.setContent(html_61616e3b6bc44c63b0c5bf98bb58eb88);
+        
+
+        marker_87ea458a9fec4c978273f909c1031ecf.bindPopup(popup_126feb3dff4c412bb793224a022f8fb2)
+        ;
+
+        
+    
+    
+            var marker_32619bf8d2614ac79f92e6885736a0ae = L.marker(
+                [13.859791, 100.5147223],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_f50c24fa7c5a402686f25aa30c629ea8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_32619bf8d2614ac79f92e6885736a0ae.setIcon(icon_f50c24fa7c5a402686f25aa30c629ea8);
+        
+    
+        var popup_29de178125f44c27a73207038a9a4b13 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_595498a8b42b4d198d97b6449a5f828e = $(`<div id="html_595498a8b42b4d198d97b6449a5f828e" style="width: 100.0%; height: 100.0%;"><b>name: </b> images146.jpg<br> <b>LAT: </b> 13.859791<br> <b>LOG: </b> 100.5147223<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:03:57 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew146.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew146.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_29de178125f44c27a73207038a9a4b13.setContent(html_595498a8b42b4d198d97b6449a5f828e);
+        
+
+        marker_32619bf8d2614ac79f92e6885736a0ae.bindPopup(popup_29de178125f44c27a73207038a9a4b13)
+        ;
+
+        
+    
+    
+            var marker_028a4b4633bc4864812aa4802c505cac = L.marker(
+                [13.8595035, 100.5171066],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_412af5628ec44079b049cfc124f41616 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_028a4b4633bc4864812aa4802c505cac.setIcon(icon_412af5628ec44079b049cfc124f41616);
+        
+    
+        var popup_d0382627711e4288a8f4750edb4b9aff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07a9bf47951844919583c515107c634c = $(`<div id="html_07a9bf47951844919583c515107c634c" style="width: 100.0%; height: 100.0%;"><b>name: </b> images134.jpg<br> <b>LAT: </b> 13.8595035<br> <b>LOG: </b> 100.5171066<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:03:35 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew134.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew134.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_d0382627711e4288a8f4750edb4b9aff.setContent(html_07a9bf47951844919583c515107c634c);
+        
+
+        marker_028a4b4633bc4864812aa4802c505cac.bindPopup(popup_d0382627711e4288a8f4750edb4b9aff)
+        ;
+
+        
+    
+    
+            var marker_fac8dc248af14853be2d1e818723b098 = L.marker(
+                [13.8804225, 100.4961456],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_abf5064b6795432889c7e8c53650c0be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fac8dc248af14853be2d1e818723b098.setIcon(icon_abf5064b6795432889c7e8c53650c0be);
+        
+    
+        var popup_8049de2f28f2407d9c06e17ecfae62dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_462554f5de634ae98cec6e84156ee61f = $(`<div id="html_462554f5de634ae98cec6e84156ee61f" style="width: 100.0%; height: 100.0%;"><b>name: </b> images225.jpg<br> <b>LAT: </b> 13.8804225<br> <b>LOG: </b> 100.4961456<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:10:45 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew225.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew225.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_8049de2f28f2407d9c06e17ecfae62dd.setContent(html_462554f5de634ae98cec6e84156ee61f);
+        
+
+        marker_fac8dc248af14853be2d1e818723b098.bindPopup(popup_8049de2f28f2407d9c06e17ecfae62dd)
+        ;
+
+        
+    
+    
+            var marker_349011b5b5c44ab49a3c7dc182f2fdda = L.marker(
+                [13.8798867, 100.5057719],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_a71d80f7ac1846e5a21cf356539bbd09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_349011b5b5c44ab49a3c7dc182f2fdda.setIcon(icon_a71d80f7ac1846e5a21cf356539bbd09);
+        
+    
+        var popup_85a7e6011041449c9e4cc9faf908850a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9ae60299cbe4ce9ac48a1baf92bce52 = $(`<div id="html_f9ae60299cbe4ce9ac48a1baf92bce52" style="width: 100.0%; height: 100.0%;"><b>name: </b> images241.jpg<br> <b>LAT: </b> 13.8798867<br> <b>LOG: </b> 100.5057719<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:13:45 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew241.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew241.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_85a7e6011041449c9e4cc9faf908850a.setContent(html_f9ae60299cbe4ce9ac48a1baf92bce52);
+        
+
+        marker_349011b5b5c44ab49a3c7dc182f2fdda.bindPopup(popup_85a7e6011041449c9e4cc9faf908850a)
+        ;
+
+        
+    
+    
+            var marker_5d0f374a15334f7889e981f6b80ed5ea = L.marker(
+                [13.8972364, 100.5076933],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_408542f32de34a04ae9a7d4b033c6466 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5d0f374a15334f7889e981f6b80ed5ea.setIcon(icon_408542f32de34a04ae9a7d4b033c6466);
+        
+    
+        var popup_fd52871020b04f4e82d9852801f195b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d44bbcc4d8ef42be94387e4525344432 = $(`<div id="html_d44bbcc4d8ef42be94387e4525344432" style="width: 100.0%; height: 100.0%;"><b>name: </b> images63.jpg<br> <b>LAT: </b> 13.8972364<br> <b>LOG: </b> 100.5076933<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:46:25 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew63.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew63.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_fd52871020b04f4e82d9852801f195b2.setContent(html_d44bbcc4d8ef42be94387e4525344432);
+        
+
+        marker_5d0f374a15334f7889e981f6b80ed5ea.bindPopup(popup_fd52871020b04f4e82d9852801f195b2)
+        ;
+
+        
+    
+    
+            var marker_3e79f03f8eb14839992b04f1cb10ab04 = L.marker(
+                [13.9069215, 100.5098395],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_08cb18eb716f467fbf041a25fd9eac6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3e79f03f8eb14839992b04f1cb10ab04.setIcon(icon_08cb18eb716f467fbf041a25fd9eac6b);
+        
+    
+        var popup_157eec9d937341729d4b076d183e1835 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e25729c70944458bb9b5a4661bf4dd6b = $(`<div id="html_e25729c70944458bb9b5a4661bf4dd6b" style="width: 100.0%; height: 100.0%;"><b>name: </b> images33.jpg<br> <b>LAT: </b> 13.9069215<br> <b>LOG: </b> 100.5098395<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:43:28 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew33.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew33.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_157eec9d937341729d4b076d183e1835.setContent(html_e25729c70944458bb9b5a4661bf4dd6b);
+        
+
+        marker_3e79f03f8eb14839992b04f1cb10ab04.bindPopup(popup_157eec9d937341729d4b076d183e1835)
+        ;
+
+        
+    
+    
+            var marker_61d2f3cdb7384b40b1c54e50757d2605 = L.marker(
+                [13.8598083, 100.5145352],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_9d5ce462180040e0a5efb16bb14585eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_61d2f3cdb7384b40b1c54e50757d2605.setIcon(icon_9d5ce462180040e0a5efb16bb14585eb);
+        
+    
+        var popup_5b9fe3018c82493fa64973f726a73612 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2cd4cffcf886488f8fa33a3f4229014d = $(`<div id="html_2cd4cffcf886488f8fa33a3f4229014d" style="width: 100.0%; height: 100.0%;"><b>name: </b> images149.jpg<br> <b>LAT: </b> 13.8598083<br> <b>LOG: </b> 100.5145352<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:03:59 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew149.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew149.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_5b9fe3018c82493fa64973f726a73612.setContent(html_2cd4cffcf886488f8fa33a3f4229014d);
+        
+
+        marker_61d2f3cdb7384b40b1c54e50757d2605.bindPopup(popup_5b9fe3018c82493fa64973f726a73612)
+        ;
+
+        
+    
+    
+            var marker_863306bf7af343eb92f8fdf4795ea912 = L.marker(
+                [13.8596152, 100.5163247],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_38d42b45454e4b219f8308ea91296873 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_863306bf7af343eb92f8fdf4795ea912.setIcon(icon_38d42b45454e4b219f8308ea91296873);
+        
+    
+        var popup_3557963bdce940df82d287f074c13956 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa71fa7c998d4936a697a35234151f6e = $(`<div id="html_fa71fa7c998d4936a697a35234151f6e" style="width: 100.0%; height: 100.0%;"><b>name: </b> images141.jpg<br> <b>LAT: </b> 13.8596152<br> <b>LOG: </b> 100.5163247<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:03:43 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew141.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew141.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_3557963bdce940df82d287f074c13956.setContent(html_fa71fa7c998d4936a697a35234151f6e);
+        
+
+        marker_863306bf7af343eb92f8fdf4795ea912.bindPopup(popup_3557963bdce940df82d287f074c13956)
+        ;
+
+        
+    
+    
+            var marker_9f82c7f361b24f1d8054176679e5986c = L.marker(
+                [13.8651218, 100.5197998],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_ad22dffeed5442f199fc883cf8619d94 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9f82c7f361b24f1d8054176679e5986c.setIcon(icon_ad22dffeed5442f199fc883cf8619d94);
+        
+    
+        var popup_b8ada687fd834a87b2cfcde9eb23bb15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68df5182a1b84412af3d7d957b4064bb = $(`<div id="html_68df5182a1b84412af3d7d957b4064bb" style="width: 100.0%; height: 100.0%;"><b>name: </b> images98.jpg<br> <b>LAT: </b> 13.8651218<br> <b>LOG: </b> 100.5197998<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:57:24 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew98.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew98.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_b8ada687fd834a87b2cfcde9eb23bb15.setContent(html_68df5182a1b84412af3d7d957b4064bb);
+        
+
+        marker_9f82c7f361b24f1d8054176679e5986c.bindPopup(popup_b8ada687fd834a87b2cfcde9eb23bb15)
+        ;
+
+        
+    
+    
+            var marker_3e6e44a30fdf4827818fdbdf319ed7bf = L.marker(
+                [13.8639896, 100.4977657],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_db21f1c021ff45f5a7c8d041302f3f6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3e6e44a30fdf4827818fdbdf319ed7bf.setIcon(icon_db21f1c021ff45f5a7c8d041302f3f6c);
+        
+    
+        var popup_81dbaecc5515409f873429b47eedfeb2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4735d47c1e994973b5b51344f059cc60 = $(`<div id="html_4735d47c1e994973b5b51344f059cc60" style="width: 100.0%; height: 100.0%;"><b>name: </b> images195.jpg<br> <b>LAT: </b> 13.8639896<br> <b>LOG: </b> 100.4977657<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:06:26 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew195.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew195.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_81dbaecc5515409f873429b47eedfeb2.setContent(html_4735d47c1e994973b5b51344f059cc60);
+        
+
+        marker_3e6e44a30fdf4827818fdbdf319ed7bf.bindPopup(popup_81dbaecc5515409f873429b47eedfeb2)
+        ;
+
+        
+    
+    
+            var marker_f4207a0bbae044458b6b71358a092677 = L.marker(
+                [13.8665167, 100.4944113],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_8fa4dc3c255045b88025da5f98e4880c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f4207a0bbae044458b6b71358a092677.setIcon(icon_8fa4dc3c255045b88025da5f98e4880c);
+        
+    
+        var popup_6fb5435c5a0f4c1b9103eda945d90098 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3747693a7faa4128bf1d21655ba6ad30 = $(`<div id="html_3747693a7faa4128bf1d21655ba6ad30" style="width: 100.0%; height: 100.0%;"><b>name: </b> images211.jpg<br> <b>LAT: </b> 13.8665167<br> <b>LOG: </b> 100.4944113<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:08:34 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew211.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew211.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_6fb5435c5a0f4c1b9103eda945d90098.setContent(html_3747693a7faa4128bf1d21655ba6ad30);
+        
+
+        marker_f4207a0bbae044458b6b71358a092677.bindPopup(popup_6fb5435c5a0f4c1b9103eda945d90098)
+        ;
+
+        
+    
+    
+            var marker_82dabffb14434975b457167486c4e3c3 = L.marker(
+                [13.8638437, 100.5202536],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_8550a64115034b1388ed469fec21fff4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_82dabffb14434975b457167486c4e3c3.setIcon(icon_8550a64115034b1388ed469fec21fff4);
+        
+    
+        var popup_b1507cb3bd14459fa4a921ba0b42d946 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27de287fce0949dcad1008a02e5d5c13 = $(`<div id="html_27de287fce0949dcad1008a02e5d5c13" style="width: 100.0%; height: 100.0%;"><b>name: </b> images105.jpg<br> <b>LAT: </b> 13.8638437<br> <b>LOG: </b> 100.5202536<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:58:12 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew105.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew105.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_b1507cb3bd14459fa4a921ba0b42d946.setContent(html_27de287fce0949dcad1008a02e5d5c13);
+        
+
+        marker_82dabffb14434975b457167486c4e3c3.bindPopup(popup_b1507cb3bd14459fa4a921ba0b42d946)
+        ;
+
+        
+    
+    
+            var marker_cff8a11bd3ba4e81aecca918a33440e6 = L.marker(
+                [13.8626701, 100.5008453],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_0e7992725fad4d23886f11fc5486a856 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cff8a11bd3ba4e81aecca918a33440e6.setIcon(icon_0e7992725fad4d23886f11fc5486a856);
+        
+    
+        var popup_bdb826515c4246c19b7b86c68e6d7c16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_140d35e55edb48a8afa63b6d3d1ac9dc = $(`<div id="html_140d35e55edb48a8afa63b6d3d1ac9dc" style="width: 100.0%; height: 100.0%;"><b>name: </b> images190.jpg<br> <b>LAT: </b> 13.8626701<br> <b>LOG: </b> 100.5008453<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:06:06 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew190.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew190.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_bdb826515c4246c19b7b86c68e6d7c16.setContent(html_140d35e55edb48a8afa63b6d3d1ac9dc);
+        
+
+        marker_cff8a11bd3ba4e81aecca918a33440e6.bindPopup(popup_bdb826515c4246c19b7b86c68e6d7c16)
+        ;
+
+        
+    
+    
+            var marker_eccc0b00cb1641a085122d3c478dab45 = L.marker(
+                [13.8818889, 100.5132988],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_a95b2c377cf64eb38376624e2c69e55d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_eccc0b00cb1641a085122d3c478dab45.setIcon(icon_a95b2c377cf64eb38376624e2c69e55d);
+        
+    
+        var popup_78d034bb97be42d0889353d013d943b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_586992a87a3f4266949a2cfcf66e7409 = $(`<div id="html_586992a87a3f4266949a2cfcf66e7409" style="width: 100.0%; height: 100.0%;"><b>name: </b> images266.jpg<br> <b>LAT: </b> 13.8818889<br> <b>LOG: </b> 100.5132988<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:17:05 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew266.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew266.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_78d034bb97be42d0889353d013d943b9.setContent(html_586992a87a3f4266949a2cfcf66e7409);
+        
+
+        marker_eccc0b00cb1641a085122d3c478dab45.bindPopup(popup_78d034bb97be42d0889353d013d943b9)
+        ;
+
+        
+    
+    
+            var marker_747aaaea80064e92a639f5003790ed42 = L.marker(
+                [13.8799936, 100.5052826],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_a4e5695e71ca46d5b68cd4f51577abaf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_747aaaea80064e92a639f5003790ed42.setIcon(icon_a4e5695e71ca46d5b68cd4f51577abaf);
+        
+    
+        var popup_7bfb94361c9e43f9b0589af249937b47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d83092419544707b1ab4dbc644f4fd9 = $(`<div id="html_5d83092419544707b1ab4dbc644f4fd9" style="width: 100.0%; height: 100.0%;"><b>name: </b> images239.jpg<br> <b>LAT: </b> 13.8799936<br> <b>LOG: </b> 100.5052826<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:13:39 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew239.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew239.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_7bfb94361c9e43f9b0589af249937b47.setContent(html_5d83092419544707b1ab4dbc644f4fd9);
+        
+
+        marker_747aaaea80064e92a639f5003790ed42.bindPopup(popup_7bfb94361c9e43f9b0589af249937b47)
+        ;
+
+        
+    
+    
+            var marker_c16ead2de41b478fb89b19f125356935 = L.marker(
+                [13.8802943, 100.5037653],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_173d4482a27c46b384700bd5c9e9bfb3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c16ead2de41b478fb89b19f125356935.setIcon(icon_173d4482a27c46b384700bd5c9e9bfb3);
+        
+    
+        var popup_1dfedffdb78f4e0ab0720f3ce1eb15d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c081da2e42f455abdbea0a2db55254b = $(`<div id="html_5c081da2e42f455abdbea0a2db55254b" style="width: 100.0%; height: 100.0%;"><b>name: </b> images231.jpg<br> <b>LAT: </b> 13.8802943<br> <b>LOG: </b> 100.5037653<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:13:21 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew231.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew231.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_1dfedffdb78f4e0ab0720f3ce1eb15d4.setContent(html_5c081da2e42f455abdbea0a2db55254b);
+        
+
+        marker_c16ead2de41b478fb89b19f125356935.bindPopup(popup_1dfedffdb78f4e0ab0720f3ce1eb15d4)
+        ;
+
+        
+    
+    
+            var marker_a80aa32619bb446d899e16937a2ea951 = L.marker(
+                [13.8649264, 100.5198501],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_54a7cc4a634646c6bb6a76701aa371f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a80aa32619bb446d899e16937a2ea951.setIcon(icon_54a7cc4a634646c6bb6a76701aa371f4);
+        
+    
+        var popup_d30daaf88a2f4b23a3ec942adf02244f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25e3e918b7cd4dcf94881220f8d8cd18 = $(`<div id="html_25e3e918b7cd4dcf94881220f8d8cd18" style="width: 100.0%; height: 100.0%;"><b>name: </b> images99.jpg<br> <b>LAT: </b> 13.8649264<br> <b>LOG: </b> 100.5198501<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:57:28 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew99.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew99.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_d30daaf88a2f4b23a3ec942adf02244f.setContent(html_25e3e918b7cd4dcf94881220f8d8cd18);
+        
+
+        marker_a80aa32619bb446d899e16937a2ea951.bindPopup(popup_d30daaf88a2f4b23a3ec942adf02244f)
+        ;
+
+        
+    
+    
+            var marker_4a7e42749c934d7b9ba6fe50e274eab7 = L.marker(
+                [13.886094, 100.5118542],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_b28988a5cfae46689821c334e27565df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4a7e42749c934d7b9ba6fe50e274eab7.setIcon(icon_b28988a5cfae46689821c334e27565df);
+        
+    
+        var popup_43fa0d2edc6d49fe8bcde6ffc9e31df9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60ff21592dce484bb2008626ff45403f = $(`<div id="html_60ff21592dce484bb2008626ff45403f" style="width: 100.0%; height: 100.0%;"><b>name: </b> images75.jpg<br> <b>LAT: </b> 13.886094<br> <b>LOG: </b> 100.5118542<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:51:38 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew75.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew75.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_43fa0d2edc6d49fe8bcde6ffc9e31df9.setContent(html_60ff21592dce484bb2008626ff45403f);
+        
+
+        marker_4a7e42749c934d7b9ba6fe50e274eab7.bindPopup(popup_43fa0d2edc6d49fe8bcde6ffc9e31df9)
+        ;
+
+        
+    
+    
+            var marker_2b15182b4b0b48f1ab3fc6c981c4ac2c = L.marker(
+                [13.859536, 100.5169143],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_b59dfdb55023492592a504f7dd7422b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2b15182b4b0b48f1ab3fc6c981c4ac2c.setIcon(icon_b59dfdb55023492592a504f7dd7422b6);
+        
+    
+        var popup_f4c385058f0e4f0784abf4671762ee21 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd79d7259e6e4350a8e90547e3f8a01d = $(`<div id="html_cd79d7259e6e4350a8e90547e3f8a01d" style="width: 100.0%; height: 100.0%;"><b>name: </b> images136.jpg<br> <b>LAT: </b> 13.859536<br> <b>LOG: </b> 100.5169143<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:03:37 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew136.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew136.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_f4c385058f0e4f0784abf4671762ee21.setContent(html_cd79d7259e6e4350a8e90547e3f8a01d);
+        
+
+        marker_2b15182b4b0b48f1ab3fc6c981c4ac2c.bindPopup(popup_f4c385058f0e4f0784abf4671762ee21)
+        ;
+
+        
+    
+    
+            var marker_4463b9315d1c4a22b3cf2c306b127d56 = L.marker(
+                [13.880214, 100.5041451],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_89410410da914982a5e69cf50c277379 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4463b9315d1c4a22b3cf2c306b127d56.setIcon(icon_89410410da914982a5e69cf50c277379);
+        
+    
+        var popup_9cf47e0fa0c143ce9d635bbc45254c7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69c10c82d8e04012b4f0f283d6498d34 = $(`<div id="html_69c10c82d8e04012b4f0f283d6498d34" style="width: 100.0%; height: 100.0%;"><b>name: </b> images232.jpg<br> <b>LAT: </b> 13.880214<br> <b>LOG: </b> 100.5041451<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:13:25 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew232.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew232.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_9cf47e0fa0c143ce9d635bbc45254c7d.setContent(html_69c10c82d8e04012b4f0f283d6498d34);
+        
+
+        marker_4463b9315d1c4a22b3cf2c306b127d56.bindPopup(popup_9cf47e0fa0c143ce9d635bbc45254c7d)
+        ;
+
+        
+    
+    
+            var marker_bb6f0d5e61c74e8fa0af30706b880489 = L.marker(
+                [13.8590809, 100.5202552],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_3bdfa834781a4c799d506c608b578aea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bb6f0d5e61c74e8fa0af30706b880489.setIcon(icon_3bdfa834781a4c799d506c608b578aea);
+        
+    
+        var popup_6145656e15824868be193ada47acc9f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_223b2f2f61ad4beb95adb16f7675401d = $(`<div id="html_223b2f2f61ad4beb95adb16f7675401d" style="width: 100.0%; height: 100.0%;"><b>name: </b> images120.jpg<br> <b>LAT: </b> 13.8590809<br> <b>LOG: </b> 100.5202552<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:03:13 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew120.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew120.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_6145656e15824868be193ada47acc9f0.setContent(html_223b2f2f61ad4beb95adb16f7675401d);
+        
+
+        marker_bb6f0d5e61c74e8fa0af30706b880489.bindPopup(popup_6145656e15824868be193ada47acc9f0)
+        ;
+
+        
+    
+    
+            var marker_a11151dba19145d58566b2c4b53a5591 = L.marker(
+                [13.8797199, 100.5065166],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_85942665bf384ec1a3317bd29c85b3d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a11151dba19145d58566b2c4b53a5591.setIcon(icon_85942665bf384ec1a3317bd29c85b3d3);
+        
+    
+        var popup_419489ac0df14961a448c1fdf41768f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38bddc507be34c089a6cd0e9c1e0ef87 = $(`<div id="html_38bddc507be34c089a6cd0e9c1e0ef87" style="width: 100.0%; height: 100.0%;"><b>name: </b> images246.jpg<br> <b>LAT: </b> 13.8797199<br> <b>LOG: </b> 100.5065166<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:13:53 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew246.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew246.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_419489ac0df14961a448c1fdf41768f5.setContent(html_38bddc507be34c089a6cd0e9c1e0ef87);
+        
+
+        marker_a11151dba19145d58566b2c4b53a5591.bindPopup(popup_419489ac0df14961a448c1fdf41768f5)
+        ;
+
+        
+    
+    
+            var marker_94ca4e6c77b046fe9f10eb04f16019a2 = L.marker(
+                [13.8711275, 100.5175601],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_4ebff90bedb84b74b946c7793538b539 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_94ca4e6c77b046fe9f10eb04f16019a2.setIcon(icon_4ebff90bedb84b74b946c7793538b539);
+        
+    
+        var popup_58e4fab18e57412fb48595faa1901288 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4906233baf14917aa74885f5878c273 = $(`<div id="html_e4906233baf14917aa74885f5878c273" style="width: 100.0%; height: 100.0%;"><b>name: </b> images85.jpg<br> <b>LAT: </b> 13.8711275<br> <b>LOG: </b> 100.5175601<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:55:00 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew85.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew85.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_58e4fab18e57412fb48595faa1901288.setContent(html_e4906233baf14917aa74885f5878c273);
+        
+
+        marker_94ca4e6c77b046fe9f10eb04f16019a2.bindPopup(popup_58e4fab18e57412fb48595faa1901288)
+        ;
+
+        
+    
+    
+            var marker_16f2780351ab4d7e87c39a683c2f2a01 = L.marker(
+                [13.9057573, 100.5218259],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_9d010dc720c444eda0af6657953e7e5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_16f2780351ab4d7e87c39a683c2f2a01.setIcon(icon_9d010dc720c444eda0af6657953e7e5c);
+        
+    
+        var popup_6a70822c732446b3b34343a21f8b0b7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7dd8e3d968f457bbc8081f716e1edcf = $(`<div id="html_b7dd8e3d968f457bbc8081f716e1edcf" style="width: 100.0%; height: 100.0%;"><b>name: </b> images3.jpg<br> <b>LAT: </b> 13.9057573<br> <b>LOG: </b> 100.5218259<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:40:58 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew3.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew3.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_6a70822c732446b3b34343a21f8b0b7b.setContent(html_b7dd8e3d968f457bbc8081f716e1edcf);
+        
+
+        marker_16f2780351ab4d7e87c39a683c2f2a01.bindPopup(popup_6a70822c732446b3b34343a21f8b0b7b)
+        ;
+
+        
+    
+    
+            var marker_77391124eaba4828b5656155758eabc9 = L.marker(
+                [13.8603491, 100.510578],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_82745e3307294a449fb62df5dbab0fd5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_77391124eaba4828b5656155758eabc9.setIcon(icon_82745e3307294a449fb62df5dbab0fd5);
+        
+    
+        var popup_2549bdae0e464388823d2dac90002e52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1efac1ef57354d57b7def2a0b7d39955 = $(`<div id="html_1efac1ef57354d57b7def2a0b7d39955" style="width: 100.0%; height: 100.0%;"><b>name: </b> images167.jpg<br> <b>LAT: </b> 13.8603491<br> <b>LOG: </b> 100.510578<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:04:39 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew167.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew167.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_2549bdae0e464388823d2dac90002e52.setContent(html_1efac1ef57354d57b7def2a0b7d39955);
+        
+
+        marker_77391124eaba4828b5656155758eabc9.bindPopup(popup_2549bdae0e464388823d2dac90002e52)
+        ;
+
+        
+    
+    
+            var marker_fefbd023d8fb49cdbab165a573812e69 = L.marker(
+                [13.8710334, 100.5175923],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_a0556fd8b3984f8b89295090d622f1f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fefbd023d8fb49cdbab165a573812e69.setIcon(icon_a0556fd8b3984f8b89295090d622f1f5);
+        
+    
+        var popup_6f2880d19f3b44b79c73cef545ef84b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0943701eb934e6e847b2cf2d052995f = $(`<div id="html_f0943701eb934e6e847b2cf2d052995f" style="width: 100.0%; height: 100.0%;"><b>name: </b> images86.jpg<br> <b>LAT: </b> 13.8710334<br> <b>LOG: </b> 100.5175923<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:55:02 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew86.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew86.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_6f2880d19f3b44b79c73cef545ef84b0.setContent(html_f0943701eb934e6e847b2cf2d052995f);
+        
+
+        marker_fefbd023d8fb49cdbab165a573812e69.bindPopup(popup_6f2880d19f3b44b79c73cef545ef84b0)
+        ;
+
+        
+    
+    
+            var marker_eaa4d3d4cf654aaf82a47df20bd6a06e = L.marker(
+                [13.9073082, 100.5045035],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_60be05291dab4b968b3843feeca3cc95 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_eaa4d3d4cf654aaf82a47df20bd6a06e.setIcon(icon_60be05291dab4b968b3843feeca3cc95);
+        
+    
+        var popup_b130728b4a7049359ba74cc611125920 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb5ef58b0f2642e58b436c6491e509c4 = $(`<div id="html_bb5ef58b0f2642e58b436c6491e509c4" style="width: 100.0%; height: 100.0%;"><b>name: </b> images53.jpg<br> <b>LAT: </b> 13.9073082<br> <b>LOG: </b> 100.5045035<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:44:18 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew53.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew53.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_b130728b4a7049359ba74cc611125920.setContent(html_bb5ef58b0f2642e58b436c6491e509c4);
+        
+
+        marker_eaa4d3d4cf654aaf82a47df20bd6a06e.bindPopup(popup_b130728b4a7049359ba74cc611125920)
+        ;
+
+        
+    
+    
+            var marker_19dee8d697ba4d30beb057560f3bfe15 = L.marker(
+                [13.9057116, 100.5220173],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_1a53cdcf333346f5906e42982602d81c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_19dee8d697ba4d30beb057560f3bfe15.setIcon(icon_1a53cdcf333346f5906e42982602d81c);
+        
+    
+        var popup_a140685d520849a5acce3f32cdd0b190 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b628021e1c2a4db49050a043235b619e = $(`<div id="html_b628021e1c2a4db49050a043235b619e" style="width: 100.0%; height: 100.0%;"><b>name: </b> images2.jpg<br> <b>LAT: </b> 13.9057116<br> <b>LOG: </b> 100.5220173<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:40:54 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew2.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew2.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_a140685d520849a5acce3f32cdd0b190.setContent(html_b628021e1c2a4db49050a043235b619e);
+        
+
+        marker_19dee8d697ba4d30beb057560f3bfe15.bindPopup(popup_a140685d520849a5acce3f32cdd0b190)
+        ;
+
+        
+    
+    
+            var marker_29d7358085ac473ab3a4ff7279624b97 = L.marker(
+                [13.8601569, 100.5119148],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_8d72ca5c811545e3bf0c891a6befe64f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_29d7358085ac473ab3a4ff7279624b97.setIcon(icon_8d72ca5c811545e3bf0c891a6befe64f);
+        
+    
+        var popup_ef4e4c689594477ba289dfe568dd3277 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65e0731f35a2489c9926f632b59ecae6 = $(`<div id="html_65e0731f35a2489c9926f632b59ecae6" style="width: 100.0%; height: 100.0%;"><b>name: </b> images161.jpg<br> <b>LAT: </b> 13.8601569<br> <b>LOG: </b> 100.5119148<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:04:29 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew161.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew161.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_ef4e4c689594477ba289dfe568dd3277.setContent(html_65e0731f35a2489c9926f632b59ecae6);
+        
+
+        marker_29d7358085ac473ab3a4ff7279624b97.bindPopup(popup_ef4e4c689594477ba289dfe568dd3277)
+        ;
+
+        
+    
+    
+            var marker_5da2d5c9585f4477997d90c388f0db25 = L.marker(
+                [13.8621841, 100.5209715],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_75536e046a5d46e384b6c7d03ea01ac5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5da2d5c9585f4477997d90c388f0db25.setIcon(icon_75536e046a5d46e384b6c7d03ea01ac5);
+        
+    
+        var popup_b30f6f202c934c3a9d79d8d6c2ff6d36 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe5568a9d84d4facbb25151a7c5cde55 = $(`<div id="html_fe5568a9d84d4facbb25151a7c5cde55" style="width: 100.0%; height: 100.0%;"><b>name: </b> images113.jpg<br> <b>LAT: </b> 13.8621841<br> <b>LOG: </b> 100.5209715<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:59:18 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew113.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew113.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_b30f6f202c934c3a9d79d8d6c2ff6d36.setContent(html_fe5568a9d84d4facbb25151a7c5cde55);
+        
+
+        marker_5da2d5c9585f4477997d90c388f0db25.bindPopup(popup_b30f6f202c934c3a9d79d8d6c2ff6d36)
+        ;
+
+        
+    
+    
+            var marker_c21c6a082b6345769bfa07fa49696d2e = L.marker(
+                [13.871605, 100.5173825],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_ddd28cbdc9364526a38d6dd55539a242 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c21c6a082b6345769bfa07fa49696d2e.setIcon(icon_ddd28cbdc9364526a38d6dd55539a242);
+        
+    
+        var popup_11e3096ece8d4ed28dd37b721af447de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c38072c677934f25bc37994ad5f043d7 = $(`<div id="html_c38072c677934f25bc37994ad5f043d7" style="width: 100.0%; height: 100.0%;"><b>name: </b> images84.jpg<br> <b>LAT: </b> 13.871605<br> <b>LOG: </b> 100.5173825<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 09:54:54 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew84.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew84.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_11e3096ece8d4ed28dd37b721af447de.setContent(html_c38072c677934f25bc37994ad5f043d7);
+        
+
+        marker_c21c6a082b6345769bfa07fa49696d2e.bindPopup(popup_11e3096ece8d4ed28dd37b721af447de)
+        ;
+
+        
+    
+    
+            var marker_bf2429c1060c49f5a9a36bfd9ec1f23e = L.marker(
+                [13.8598403, 100.5142436],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_0be9e789780640ea8cdf48c96df28adc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bf2429c1060c49f5a9a36bfd9ec1f23e.setIcon(icon_0be9e789780640ea8cdf48c96df28adc);
+        
+    
+        var popup_67b5a1450df14e03975077f398f2c09f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_070057beb4fd4cd4b6b384dd89301e71 = $(`<div id="html_070057beb4fd4cd4b6b384dd89301e71" style="width: 100.0%; height: 100.0%;"><b>name: </b> images152.jpg<br> <b>LAT: </b> 13.8598403<br> <b>LOG: </b> 100.5142436<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:04:03 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew152.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew152.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_67b5a1450df14e03975077f398f2c09f.setContent(html_070057beb4fd4cd4b6b384dd89301e71);
+        
+
+        marker_bf2429c1060c49f5a9a36bfd9ec1f23e.bindPopup(popup_67b5a1450df14e03975077f398f2c09f)
+        ;
+
+        
+    
+    
+            var marker_84ec23a4f05a482980cd894071a8f920 = L.marker(
+                [13.8606941, 100.5079739],
+                {}
+            ).addTo(feature_group_d09b987ed5db44b58275d130ca14d3ee);
+        
+    
+            var icon_bded512b42a74aa48ab218160170e13d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_84ec23a4f05a482980cd894071a8f920.setIcon(icon_bded512b42a74aa48ab218160170e13d);
+        
+    
+        var popup_7154dcfe3d3a49348a3ea45b5155dd55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e402c606867942399d83909eecfdbcf3 = $(`<div id="html_e402c606867942399d83909eecfdbcf3" style="width: 100.0%; height: 100.0%;"><b>name: </b> images179.jpg<br> <b>LAT: </b> 13.8606941<br> <b>LOG: </b> 100.5079739<br><b>Class: </b> waterpipecap<br> <b>Time : </b> 07/02/2021 10:05:07 AM<br> <a href=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew179.jpg?alt=media><img src=https://firebasestorage.googleapis.com/v0/b/project-81485.appspot.com/o/imagesnew179.jpg?alt=media height=142 width=290></a></div>`)[0];
+            popup_7154dcfe3d3a49348a3ea45b5155dd55.setContent(html_e402c606867942399d83909eecfdbcf3);
+        
+
+        marker_84ec23a4f05a482980cd894071a8f920.bindPopup(popup_7154dcfe3d3a49348a3ea45b5155dd55)
+        ;
+
+        
+    
+    
+            var feature_group_6a3a604e392b4a868593d232f144b07c = L.featureGroup(
+                {}
+            ).addTo(map_934fa8fd899543c98988c7dcec2d8be7);
+        
+    
+            var feature_group_ace9e125f70c45cfaed87dac5831ddfd = L.featureGroup(
+                {}
+            ).addTo(map_934fa8fd899543c98988c7dcec2d8be7);
+        
+    
+            var feature_group_b48e4d6d817041fba5952f837ce8bee4 = L.featureGroup(
+                {}
+            ).addTo(map_934fa8fd899543c98988c7dcec2d8be7);
+        
+    
+            var layer_control_eaaa587f9496466c9711de084cf99060 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_70807446f8a84aba979eb8a3b5c3b4c7,
+                },
+                overlays :  {
+                    "mend" : feature_group_08187087c4dd49d1bf675f05a4dacf83,
+                    "crack" : feature_group_92451b1b420f48de879532a73dd15151,
+                    "waterpipecap" : feature_group_d09b987ed5db44b58275d130ca14d3ee,
+                    "mend21" : feature_group_6a3a604e392b4a868593d232f144b07c,
+                    "crack22" : feature_group_ace9e125f70c45cfaed87dac5831ddfd,
+                    "waterpipecap87" : feature_group_b48e4d6d817041fba5952f837ce8bee4,
+                },
+            };
+            L.control.layers(
+                layer_control_eaaa587f9496466c9711de084cf99060.base_layers,
+                layer_control_eaaa587f9496466c9711de084cf99060.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_934fa8fd899543c98988c7dcec2d8be7);
+        
+</script>
